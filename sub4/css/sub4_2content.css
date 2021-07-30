@@ -1,0 +1,26 @@
+/* 정도경영 프로그램 내용 영역 */
+
+#content .content_area{overflow: hidden; margin: 100px 0 150px 0;}
+
+
+#content .content_area ul{overflow: hidden; }
+#content .content_area li{border: 1px solid #ccc; width: 580px; margin-bottom: 50px; position: relative; width: 580px;}
+#content .content_area li:nth-child(odd){float: left;}
+#content .content_area li:nth-child(even){float: right; margin-left: 36px;}
+#content .content_area li dt{font-family: 'Nanum Gothic', sans-serif; font-size: 20px; font-weight: 700; padding: 40px 0 30px 30px;}
+#content .content_area li dd{font-family: 'Nanum Gothic', sans-serif; font-size: 16px; margin: 0 30px 30px 30px; padding-top: 30px; text-align: justify; border-top: 1px solid #ececec; line-height: 1.5em;}
+#content .content_area li a{font-family: 'Nanum Gothic', sans-serif; display: block; margin: 0 0 30px 30px; width: 180px; height: 45px; text-align: center; background: #555; color: #fff; border: 1px solid #fff; line-height: 3em; font-weight: 600; font-size: 14px; border-radius: 50px; transition: all .4s;}
+#content .content_area li a:hover{background: #fff; color: #e61a27; border: 1px solid #e61a27;}
+#content .content_area li img{width: 70px; position: absolute; top: 20px; left: 460px;}
+#content .content_area ul .box1{height: 309px;}
+#content .content_area ul .box2{height: 309px;}
+#content .content_area ul .box3{height: 232px;}
+#content .content_area ul .box4{height: 232px;}
+#content .content_area ul .box5{height: 232px;}
+#content .content_area ul .box6{height: 232px;}
+#content .content_area ul .box7{height: 232px;}
+#content .content_area ul .box8{height: 232px;}
+#content .content_area ul .box9{height: 304px;}
+#content .content_area ul .box10{height: 304px;}
+
+

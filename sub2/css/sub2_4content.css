@@ -1,0 +1,24 @@
+/* 공장현황 내용 영역 */
+
+#content .content_area{margin: 100px 0 150px 0;}
+
+#content ul{border-top: 1px solid #ccc; margin-bottom: 50px;}
+
+#content ul .factory_tit{overflow: hidden; position: relative; font-family: 'Nanum Gothic', sans-serif; border-bottom: 1px solid #ccc;}
+#content ul .factory_tit a{display: block; width: 1200px; height: 160px; padding: 40px 0;}
+#content ul .factory_tit img{float: left;}
+#content ul .factory_tit .tit_box{float: left; margin: 30px 0 30px 50px;}
+#content ul .factory_tit .tit_box h3{font-size: 28px; margin-bottom: 20px;}
+#content ul .factory_tit .tit_box p{font-size: 1em; line-height: 1.5em;}
+#content ul .factory_tit .tit_box strong{margin-right: 20px;}
+#content ul .factory_tit .tit_box .icon{display: block; font-size: 40px; position: absolute; right: 50px; top: 100px; color: #666;}
+
+#content ul .factory_box{font-family: 'Nanum Gothic', sans-serif; background: #f7f7f7; 
+    line-height: 1.5em; padding-bottom: 40px; }
+#content ul .factory_txt, .map_tit , dl{margin: 0 40px;}
+#content ul .factory_box span, dt{display: block; font-size: 20px; font-weight: 600; padding-top: 40px;}
+#content ul .factory_txt p{text-align: justify;}
+#content ul .factory_box dd i{font-size: 25px; margin-right: 10px; color: #333;}
+#content ul .factory_box dd{padding-top: 30px;}
+
+#map1, #map2, #map3{width: 1100px; height: 400px; border: 1px solid #ccc; margin: 20px 0 0 40px;}

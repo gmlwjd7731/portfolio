@@ -1,0 +1,32 @@
+
+#wrap .main{position: relative; margin-top: 80px;}
+#wrap .visual{width: 100%; height: 160px; background: url(../images/sub1/visula.jpg) no-repeat center; background-size: cover; border-radius: 0 0 20px 20px;}
+
+#content{margin: 0 10px 50px 10px;}
+
+#content .title_area{width: 100%;}
+#content .title_area h2{font-size: 1.875em; font-family: 'Open Sans', sans-serif; font-weight: 700; text-align: center; margin: 40px 0 20px 0;}
+#content .intro_txt{text-align: center;}
+#content .intro_txt span{color: #e61a27; font-weight: 700;}
+#content .title_area ul{overflow: hidden; margin: 40px auto; width: 100%; border: 1px solid #ccc;}
+#content .title_area ul li{float: left; width: 50%; position: relative; border-right: 1px solid #ccc; box-sizing: border-box;}
+#content .title_area ul li:last-child{border-right: 0;}
+#content .title_area ul li a{font-family: 'Nanum Gothic', sans-serif; display: block; width: 100%;  height: 35px; text-align: center; color: #666; line-height: 2.5em; transition: all .4s ease;}
+#content .title_area ul .current{color: #fff; background: #e61a27;}
+
+#content section{width: 100%;}
+.faq{width: 100%; border-bottom:1px solid #ccc; margin: 0 auto;}  
+.faq .hgroup{position:relative; margin-bottom: 20px;}  
+.faq .hgroup h3{font-size: 1.25em; margin-left: 2%;}
+.faq .hgroup .all{position:absolute; top: 5px; right:2%; font-size: 1em;}  
+.faq ul{border-top: 2px solid #999; border-bottom: 1px solid #999;}
+.faq .q{border-bottom:1px solid #ccc; position: relative;}  
+.faq .q .trigger{display:block; padding: 15px 30px; text-align:left; line-height: 1.5em;}   
+.faq .q .icon{display: block; position: absolute; right: 3%; top:50%; margin-top: -7px; font-size: 1em; color: #666;} 
+.faq .a{padding: 15px 20px 15px 39px; line-height:1.75em; display: none; background:#f6f6f6; position: relative; text-align: justify; border-bottom: 1px solid #ccc;} 
+.faq .qimg{display: block; width: 24px; height: 24px; font-size: 1em; line-height: 1.6em; font-weight: 600; 
+        text-align: center; color: #fff; background: #e61a27; border-radius: 50%; position: absolute; top: 50%; left: 0; margin-top: -12px;}
+.faq .aimg{display: block; width: 24px; height: 24px; font-size: 1em; line-height: 1.6em; font-weight: 600; 
+    text-align: center; color: #fff; background: #666; border-radius: 50%; position: absolute; top: 20px; left: 5px;}
+
+

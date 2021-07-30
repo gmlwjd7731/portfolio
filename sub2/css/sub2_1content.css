@@ -1,0 +1,31 @@
+/* 기업소개 내용 영역 */
+
+#content .content_area{margin-top: 100px;}
+#content .con1{margin-bottom: 150px; position: relative;}
+#content .con1_txt1{font-family: 'Nanum Gothic', sans-serif; font-size: 1.25em; font-weight: 700; text-align: center; margin-top: 100px;}
+#content .con1 .point1{color: #e61a27; font-size: 24px;}
+#content .con1 .point2{color: #555025;}
+#content .con1_txt2{font-family: 'Nanum Gothic', sans-serif; font-size: 1.125em; text-align: center; margin-top: 50px; line-height: 1.5em;}
+#content .con1_txt3{font-family: 'Nanum Gothic', sans-serif; font-size: 1.125em; text-align: center; margin-top: 30px;}
+#content .con1_txt3::after{content: ""; display: block; width: 1200px; height: 3px; background: url(../images/content1/dot.jpg); position: absolute; bottom: -73px; left: 0;}
+
+#content .con2{position: relative; overflow: hidden; width: 1200px; height: 507px;}
+#content .con2txt{float: left;}
+#content .con2 img{float: right;}
+#content .con2txt p{font-family: 'Nanum Gothic', sans-serif; font-size: 1.125em; text-align: left; line-height: 1.5em;}
+#content .con2txt span{font-size: 20px; font-weight: 700;}
+#content .con2_txt2{margin-top: 50px;}
+#content .con2_txt3{margin-top: 30px;}
+#content .con2_txt3::after{content: ""; display: block; width: 1200px; height: 3px; background: url(../images/content1/dot.jpg); position: absolute; bottom: 73px; left: 0;}
+
+#content .con3{overflow: hidden; margin-bottom: 150px;}
+#content .con3txt{float: right;}
+#content .con3 img{float: left;}
+#content .con3txt p{font-family: 'Nanum Gothic', sans-serif; font-size: 1.125em; text-align: right; line-height: 1.5em;}
+#content .con3txt span{font-size: 20px; font-weight: 700;}
+#content .con3_txt2{margin: 30px 0;}
+
+
+
+
+

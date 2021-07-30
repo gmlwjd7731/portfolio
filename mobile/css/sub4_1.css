@@ -1,0 +1,29 @@
+
+#wrap .main{position: relative; margin-top: 80px;}
+#wrap .visual{width: 100%; height: 160px; background: url(../images/sub4/visula.jpg) no-repeat center; background-size: cover; border-radius: 0 0 20px 20px;}
+
+#content{margin: 0 10px 50px 10px;}
+#content h2{font-size: 1.875em; font-weight: 700; text-align: center; margin: 40px 0 20px 0;}
+#content .intro_txt{text-align: center; line-height: 1.5em;}
+#content .intro_txt span{color: #e61a27; font-weight: 700;}
+
+#content h3{font-size: 1.4em; font-weight: 600; border-bottom: 1px solid #ccc; line-height: 2em; margin-top: 50px;}
+#content p{line-height: 1.5em; margin-top: 20px; text-align: justify;}
+
+#content .tit1{font-family: 'Open Sans', sans-serif;}
+#content .lgway{width: 100%; background: url(../images/sub4/lgway.jpg) no-repeat center top; background-size: 300px; margin-top: 30px;}
+#content .lgway span{display: block; font-size: 1.125em; color: #fff; text-align: center; line-height: 1.5em;}
+#content .lgway .top{padding-top: 50px;}
+#content .lgway .mid{padding-top: 45px;}
+#content .lgway .bot1{padding-top: 40px;}
+#content .lgway dl{margin-top: 50px;}
+#content .lgway dl dt{margin: 20px 0; font-size: 1.125em; width: 90px; height: 30px; background: linear-gradient(to right, rgb(255, 78, 89) 0%,rgb(121, 0, 8) 100%); color: #fff; text-align: center; line-height: 1.8em; border-radius: 20px;}
+#content .lgway dl dd{line-height: 1.5em; text-align: justify;}
+
+#content ul{margin-top: 20px;}
+#content ul li{width: 80%; border-radius: 0 20px 0 20px; box-shadow: 2px 2px 5px 2px #ccc; margin: 30px 10%;}
+#content ul li img{width: 70%; margin: 20px 15%;}
+#content ul dl dt{text-align: center; font-size: 1.125em; font-weight: 700; padding: 10px 0;}
+#content ul dl dd{text-align: center; line-height: 1.5em; padding-bottom: 30px;}
+
+

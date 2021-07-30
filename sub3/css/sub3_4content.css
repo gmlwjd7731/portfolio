@@ -1,0 +1,41 @@
+/* 커피&티 내용 영역 */
+
+#content .content_area{width: 1200px; margin: 0 auto;}
+#back{width: 100%; height: 100%; background: rgba(0, 0, 0, .7);  position: fixed; left: 0; top: 0; z-index: 60; cursor: pointer; display: none;}
+
+#content .intro{margin-top: 100px; width: 1200px; position: relative;}
+#content .intro img{width: 400px; position: absolute; left: 100px; top: -40px; border-radius: 0 20px 0 20px; box-shadow: 2px 2px 5px 2px #999;}
+#content .intro p{width: 100%; background: #fcf0e7; font-family: 'Nanum Gothic', sans-serif; font-size: 1em; line-height: 2em; padding: 80px 280px; margin: 150px 0 0 350px;}
+#content .intro p span{font-weight: 600;}
+
+#content .product{margin: 150px 0; width: 1200px;}
+#content .product ul{overflow: hidden; width: 1200px; margin: 0 auto;}
+#content .product li{float: left; width: 282px; border: 1px solid #ccc; margin: 0 9px; box-sizing: border-box; transition: all .4s;}
+#content .product li:nth-of-type(1){background: url(../images/content4/georgia.jpg) no-repeat; background-position: 0 0; margin-top: 150px;}
+#content .product li:nth-of-type(2){background: url(../images/content4/gold.jpg) no-repeat; background-position: 0 0;}
+#content .product li:nth-of-type(3){background: url(../images/content4/mate.jpg) no-repeat; background-position: 0 0; margin-top: 150px;}
+#content .product li:nth-of-type(4){background: url(../images/content4/sunw.jpg) no-repeat; background-position: 0 0;}
+#content .product li:hover{background-position: 0 -380px;}
+#content .product li a{display: block; width: 282px; height: 377px;}
+
+#content .product_info .info{box-sizing: border-box; border: 1px solid #ccc; background: #fff;  width: 1100px; height: 555px; position: fixed; left: 50%; top: 50%; margin-left: -550px; margin-top: -210px; z-index: 100; display: none;}
+#content .product_info .info img{float: left; width: 500px; padding: 62px 10px;}
+#content .product_info .info h3{font-size: 2.75em; font-weight: 600; line-height: 1.5em;}
+#content .product_info .info p:nth-of-type(1){font-size: 1.375em; font-weight: 600; padding-top: 70px;}
+#content .product_info .info p:nth-of-type(2){font-size: 1em; padding-top: 30px; line-height: 1.5em;}
+#content .product_info .info ul{overflow: hidden; padding-top: 80px;}
+#content .product_info .info ul li{float: left; padding-right: 50px;}
+#content .product_info .info ul li:nth-of-type(3){padding-top: 20px;}
+
+#content .product_info .info ul li dl{overflow: hidden;}
+#content .product_info .info ul li dl dt{font-weight: 600; color: #e61a27; float: left;}
+#content .product_info .info ul li dl dd{float: left; padding-left: 20px;}
+#content .product_info .info ul li dl dd span{font-weight: 600; padding-right: 10px;}
+#content .product_info .info ul li dl dd span:nth-of-type(2){line-height: 2.5em;}
+#content .product_info .info ul .volume{clear: both; padding-top: 20px; font-family: 'Open Sans', sans-serif;}
+#content .product_info .info ul .volume dd{clear: both; padding-top: 10px; padding-left: 0;}
+#content .product_info .info a{display: block; width: 40px; height: 30px; padding: 10px; background: #e61a27; border-radius: 50px 50px 0 0; text-align: center; position: absolute; top: -51px; right: -1px; text-align: right; z-index: 90;}
+#content .product_info .info a i{font-size: 35px; color: #fff; margin-right: 8px;}
+
+
+

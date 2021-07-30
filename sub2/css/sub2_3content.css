@@ -1,0 +1,30 @@
+/* 연혁 내용 영역 */
+
+#content .content_area{overflow: hidden; margin: 100px 0 150px 0;}
+
+#content .history_nav{width: 1000px; height: 200px; background: url(../images/content3/nav_back.jpg) no-repeat; margin: 0 auto;}
+#content .history_nav ul{overflow: hidden; padding: 75px 100px;}
+#content .history_nav ul li{float: left; border: 1px solid #bbb; background: rgba(255, 255, 255, .6);}
+#content .history_nav ul li a{display: block; width: 196px; height: 50px; text-align: center; line-height: 3em; font-family: 'Open Sans', sans-serif; font-size: 1.125em; transition: .4s;}
+#content .history_nav ul li .current{font-weight: 600; background: #fff;}
+#content .history_nav ul li a:hover{background: #fff; font-weight: 600;}
+
+#content .tabs .contlist{display: none; position: relative;}
+
+#content .history_list h3{font-size: 2.5em; color: #333; font-family: 'Open Sans', sans-serif; margin: 30px 0 100px; text-align: center;}
+#content .history_list img{width: 70px; position: absolute; top: 90px; left: 50%; margin-left: -35px;}
+
+#content .history_list ul{padding: 100px 0; position: relative;}
+#content .history_list ul:before {content: ''; display: block; width: 1px; height: 100%; background-color: rgba(0, 0, 0, 0.1); position: absolute; left: 50%; top: 0;}
+#content .history_list ul li{margin-bottom: 50px; overflow: hidden;}
+#content .history_list ul li:nth-of-type(2n+1) dl{float: right; width: 50%;}
+#content .history_list ul li:nth-of-type(2n) dl{float: left; text-align: right; width: 50%;}
+#content .history_list ul li dl{position: relative;}
+#content .history_list ul li dl::before{content: ''; display: block; width: 12px; height: 12px; border-radius: 50%; background: #e61a27; position: absolute; top: 30%;}
+#content .history_list ul li:nth-of-type(2n+1) dl::before{margin-left: -6px;}
+#content .history_list ul li:nth-of-type(2n) dl::before{right: 0; margin-right: -6px;}
+#content .history_list ul li dt{font-size: 1.125em; font-weight: 600;}
+#content .history_list ul li:nth-of-type(2n+1) dt{float: left; padding-left: 40px; margin-right: 20px;}
+#content .history_list ul li:nth-of-type(2n) dt{padding-right: 40px; float: right; margin-left: 20px;}
+#content .history_list ul li dd{font-size: 1em; line-height: 1.5em;}
+#content .history_list ul li:nth-of-type(2n) dd{text-align: right;}

@@ -1,0 +1,30 @@
+/* 고객의 소리 내용 영역 */
+
+#content .content_area{width: 900px; overflow: hidden; margin: 100px auto 150px;}
+
+.email_top{overflow: hidden; position: relative; padding-top: 80px}
+.email_top a:nth-of-type(1){display: block; float: left; margin-right: 370px; padding-top: 30px; font-family: 'Nanum Gothic', sans-serif; font-size: 20px; color: #999}
+.email_top a img{float: left; margin-right: 10px;}
+.email_top p{float:left; font-family: 'Nanum Gothic', sans-serif; font-size: 25px; font-weight: 700; padding-bottom: 80px; padding-top: 20px}
+.email_top p::after{width: 900px; height: 3px; content: ''; background: #e61a27; position: absolute; top: 150px; left: 0}
+
+
+.control-group{position: relative}
+.control-group label{display: block; font-family: 'Nanum Gothic', sans-serif; font-weight: 700; font-size: 20px; margin: 0 30px; padding-bottom: 15px}
+.control-group label::after{width: 8px; height: 8px; content: ''; border-radius: 4px; background: #e61a27; position: absolute; top: 8px; left: 10px}
+
+.control-group input{font-family: 'Nanum Gothic', sans-serif; border: none; background: #f6f6f6; padding: 5px; height: 40px; width: 900px; font-size: 16px; outline: 0;}
+
+textarea{font-family: 'Nanum Gothic', sans-serif; border: none; background: #f6f6f6; padding: 5px; height: 300px; width: 900px; font-size: 16px; resize: none; outline: 0;}
+
+.help-block{width: 100%; height: 20px; font-family: 'Nanum Gothic', sans-serif; padding: 20px; color: #f00}
+
+#success{height: 10px;}
+
+.row button{cursor: pointer; display: block; background: #e61a27; color: #fff; text-align: center; font-family: 'Nanum Gothic', sans-serif; font-size: 18px; width: 130px; padding: 10px; border: none; margin-left: 385px}
+
+#success button{margin-right: 10px;}
+
+
+
+

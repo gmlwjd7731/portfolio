@@ -1,0 +1,93 @@
+/* 환경안전보건 내용 영역 */
+
+#content .content_area{margin: 100px 0 150px 0;}
+
+#content section{position: relative; bottom:-1000px; opacity: 0; transition: all .8s}
+
+#content .title_area .tit_box{height: 300px; width: 100%;}
+#content .title_area .tit_box .subNav{width: 100%;}
+#content .title_area h2{margin-bottom: 138px;}
+#content .title_area ul{overflow: hidden; margin: 0 auto; width: 1200px;}
+#content .title_area .tit_box::after{content: ''; width: 2000px; height: 1px; background: #ccc; position: absolute; top: 235px; left: -1000px; margin-left: 50%;}
+#content .title_area li{float: left; width: 400px; position: relative;}
+#content .title_area li a{font-family: 'Nanum Gothic', sans-serif; display: block; width: 100%;  height: 60px; text-align: center; font-size: 1.125em; color: #999; transition: all .4s ease;}
+#content .title_area li a::after{content: ''; width: 10px; height: 10px; border-radius: 50%; background: #999; border: 1px solid #999; position: absolute; left: 50%; margin-left: -5px; bottom: 15px; z-index: 10; transition: all .4s ease;}
+#content .title_area li .link1{color: #333;}
+#content .title_area li .link1::after{content: ''; background: #e61a27; border: 1px solid #e61a27;}
+#content .title_area li a:hover{color: #333;}
+#content .title_area li a:hover::after{content: ''; background: #e61a27; border: 1px solid #e61a27;}
+
+#content .content_area h3{font-family: 'Nanum Gothic', sans-serif; font-size: 2.25em; font-weight: 700; text-align: center; margin-bottom: 70px;}
+#content .tit_text1, .tit_text2, .tit_text3{font-family: 'Nanum Gothic', sans-serif; font-size: 1.125em; text-align: center; margin-bottom: 80px; line-height: 1.5em;}
+#content .tit_text1 span{color: #e61a27;}
+#content .con1_box{overflow: hidden; margin-bottom: 150px;}
+#content .con1_box img{float: left; border-radius: 30px 0 30px 0;}
+#content .con1_box ul{ overflow: hidden;}
+#content .con1_box ul li{margin: 0 0 30px 80px; float: left;}
+#content .con1_box ul li span{font-family: 'Open Sans', sans-serif; font-size: 2.875em; color: #f8c82b; font-weight: 600; float: left;}
+#content .con1_box ul li p{font-family: 'Nanum Gothic', sans-serif; font-size: 1em; float: right; margin: 10px 0 0 40px; line-height: 1.5em;}
+
+#content .con2_box{position: relative;}
+#content .con2_box ul{overflow: hidden; padding-top: 10px;}
+#content .con2_box ul li{width: 240px; height: 240px; float: left; border: 5px solid #2a92db; border-radius: 50%; margin-right: 66.6px; position: relative;}
+#content .con2_box ul .last{margin-right: 0;}
+#content .con2_box ul li span{font-family: 'Nanum Gothic', sans-serif; font-size: 1.25em; font-weight: 700; text-align: center; display: block; width: 150px; height: 45px; background: linear-gradient(to right, rgb(110, 195, 255) 0%,rgb(0, 69, 118) 100%); color: #fff; text-align: center; line-height: 2.2em; border-radius: 30px; position: absolute; left: 45px; top: -10px;}
+#content .con2_box ul li p{font-family: 'Nanum Gothic', sans-serif; font-size: 1em; text-align: center; margin-top: 90px; line-height: 1.5em;;}
+#content .con2_box .drop{width: 45px; height: 45px; position: absolute; left: 50%; top: 500px; margin-left: -22px;
+                    animation-name: drop; animation-duration: 2s; animation-iteration-count: infinite; transition: ease;}
+                    @keyframes drop{
+                            0% {
+                            transform: translateY(-30px); opacity: 10%;
+                        }
+                        100% {
+                            transform: translateY(0px); opacity: 40%;
+                        }
+                    }
+#content .con2_box .drop2{width: 45px; height: 45px; position: absolute; left: 50%; top: 500px; margin-left: -22px;
+                        animation-name: drop2; animation-duration: 2s; animation-iteration-count: infinite; transition: ease;}
+                        @keyframes drop2{
+                                0% {
+                                transform: translateY(25px); opacity: 10%;
+                            }
+                            100% {
+                                transform: translateY(70px); opacity: 60%;
+                            }
+                        }
+#content .con2_box .drop3{width: 45px; height: 45px; position: absolute; left: 50%; top:500px; margin-left: -22px;
+                            animation-name: drop3; animation-duration: 2s; animation-iteration-count: infinite; transition: ease;}
+                            @keyframes drop3{
+                                    0% {
+                                    transform: translateY(80px); opacity: 10%;
+                                }
+                                100% {
+                                    transform: translateY(140px); opacity: 100%;
+                                }
+                            }
+#content .con2_box .con2_txt{margin: 280px 0 150px 0; position: relative;}
+#content .con2_box .con2_txt::after{content: ''; display: block; width: 1000px; height: 200px; border: 2px solid #2a92db; position: absolute; left: 100px; top: -35px; border-radius: 20px;}
+#content .con2_box .con2_txt span{font-family: 'Nanum Gothic', sans-serif; font-size: 1.375em; font-weight: 700; text-align: left; display: block; position: absolute; left: 200px; top: 55px; color: #063d64;}
+#content .con2_box .con2_txt p{font-family: 'Nanum Gothic', sans-serif; font-size: 1.125em; margin: 0 0 30px 730px;}
+#content .con2_box .con2_txt span::after{content: ''; display: block; width: 300px; height: 150px; position: absolute; left: 200px; top: -40px; z-index: 20; background: url(../images/content3/list.jpg) no-repeat;}
+
+#content .con3_box .tit_text3{text-align: center;}
+#content .con3_box .tit_text3 span{color: #e61a27;}
+#content .con3_box table{font-family: 'Nanum Gothic', sans-serif; text-align: center; border-top: 1px solid #666; border-bottom: 2px solid #ccc; margin-left: 92px;}
+#content .con3_box table caption{font-size: 1em; text-align: left;}
+#content .con3_box table thead th{font-size: 1.125em; padding: 20px 40px; border-right: 1px solid #ccc; border-bottom: 1px solid #ccc; background: #f7f7f7;}
+#content .con3_box table thead th:last-of-type{border-right: 0;}
+#content .con3_box table tbody th{font-size: 1.125em; padding: 20px 60px; border-right: 1px solid #ccc; background: #f7f7f7; border-bottom: 1px solid #ccc;}
+#content .con3_box table td{border-bottom: 1px solid #ccc; border-right: 1px solid #ccc; padding: 0 60px;}
+#content .con3_box table td:last-of-type{border-right: 0;}
+
+/* 상단 고정 sticky menu */
+.navOn{position: fixed; z-index:60; top: 0; left: 0; background: #fff; box-shadow: 0 0 10px #999;}
+#content .title_area .navOn li a{font-weight: 600; font-size: 1.25em; text-align: center; color: #e61a27; line-height: 3em; padding: 5px 0;}
+#content .navOn li a::after{content: ''; display: none;}
+
+/* 메뉴 활성화  scroll spy */
+#content .navOn ul li .spy{background: #e61a27; color: #fff}
+
+/* scroll animation 최종값(목적지)  */
+#content .boxMove{bottom:0; opacity: 1}
+
+

@@ -1,0 +1,91 @@
+<div id="skipNav">
+    <a href="#content">본문 바로가기</a>
+    <a href="#gnb">글로벌 네비게이션 바로가기</a>
+</div>
+
+<header id="headerArea">
+    <div class="header_inner">
+    <div class="headerTop">
+        
+        <h1 class="logo">                   
+            <a href="/">코카-콜라음료주식회사 로고</a>
+        </h1>
+            <ul class="top_menu">
+            <?
+            if(!$userid)
+            {
+            ?>
+               <li><a href="../login/login_form.php">LOGIN</a></li>
+               <li ><a class="join" href="../member/member_check.html">JOIN</a></li>
+            <?
+            }
+            else   
+            {
+            ?>
+               <li><a href="../login/logout.php">LOGOUT</a></li>
+               <li ><a class="join" href="../member/member_form_modify.php">회원정보수정</a></li>
+            <?
+            }
+            ?>
+            </ul>
+    </div>
+    <nav id="gnb">
+        <h2 class="hidden">네비게이션영역</h2>                
+        <ul class="dropdownmenu">
+            <li class="m1 menu">
+              <h3><a class="depth1" href="../sub1/sub1_1.html">코카콜라 스토리</a></h3>
+              <ul>
+                  <li><a href="../sub1/sub1_1.html">브랜드 스토리</a></li>
+                  <li><a href="../sub1/sub1_2.html">SINCE 1886</a></li>
+                  <li><a href="../sub1/sub1_3.html">제조과정</a></li>
+                  <li><a href="../sub1/sub1_4.html">코카콜라 갤러리</a></li>
+              </ul>
+          </li>
+          <li class="m2 menu">
+              <h3><a class="depth1" href="../sub2/sub2_1.html">회사소개</a></h3>
+              <ul>
+                  <li><a href="../sub2/sub2_1.html">기업소개</a></li>
+                  <li><a href="../sub2/sub2_2.html">CEO 인사말</a></li>
+                  <li><a href="../sub2/sub2_3.html">연혁</a></li>
+                  <li><a href="../sub2/sub2_4.html">공장현황</a></li>
+              </ul>
+          </li>
+          <li class="m3 menu">
+              <h3><a class="depth1" href="../sub3/sub3_1.html">제품소개</a></h3>
+              <ul>
+                  <li><a href="../sub3/sub3_1.html">스파클링</a></li>
+                  <li><a href="../sub3/sub3_2.html">주스</a></li>
+                  <li><a href="../sub3/sub3_3.html">기능성 음료</a></li>
+                  <li><a href="../sub3/sub3_4.html">커피&amp;티</a></li>
+                  <li><a href="../sub3/sub3_5.html">워터</a></li>
+              </ul>
+          </li>
+          <li class="m4 menu">
+              <h3><a class="depth1" href="../sub4/sub4_1.html">정도경영</a></h3>
+              <ul>
+                  <li><a href="../sub4/sub4_1.html">정도경영 소개</a></li>
+                  <li><a href="../sub4/sub4_2.html">정도경영 프로그램</a></li>
+                  <li><a href="../sub4/sub4_3.html">환경안전보건</a></li>
+                  <li><a href="../sub4/sub4_4.html">후원&amp;지원</a></li>
+              </ul>
+          </li>
+          <li class="m5 menu">
+              <h3><a class="depth1" href="../greet/list.php">뉴스&amp;이벤트</a></h3>
+              <ul>
+                  <li><a href="../greet/list.php">공지사항</a></li>
+                  <li><a href="../brand/list.php">브랜드 소식</a></li>
+                  <li><a href="../concert/list.php">이벤트</a></li>
+              </ul>
+          </li>
+          <li class="m6 menu">
+              <h3><a class="depth1" href="../sub6/sub6_1.html">고객센터</a></h3>
+              <ul>
+                  <li><a href="../sub6/sub6_1.html">FAQ</a></li>
+                  <li><a href="../sub6/sub6_2.html">고객의 소리</a></li>
+              </ul>
+             </li>
+        </ul>
+        
+    </nav>
+</div>
+</header>

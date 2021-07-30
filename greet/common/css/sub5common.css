@@ -1,0 +1,25 @@
+/* sub6 공통 영역 */
+.visual{margin-top: 180px; width: 2000px; position: relative; left: 50%; margin-left: -1000px;}
+
+.sub_menu{width: 1200px; margin: 0 auto; position: absolute;  left: 50%; top: 320px; margin-left: -600px;}
+.sub_menu h3{font-family: 'Nanum Gothic', sans-serif; font-size: 2.5em; color: #fff; text-shadow: 1px 1px 3px #666; font-weight: 400; text-align: center}
+.sub_menu p{font-family: 'Open Sans', sans-serif; font-size: 1em; color: #fff; text-align: center; margin-top: 10px;}
+.sub_menu ul{width: 750px; overflow: hidden; position: absolute; top: 203px; left: 50%; margin-left: -375px;}
+.sub_menu ul li{float: left; position: relative; width: 250px; box-sizing: border-box; border-left: 1px solid #fff;}
+.sub_menu ul li:nth-of-type(3){ border-right: 1px solid #fff;}
+.sub_menu ul li a{display: block; width: 250px; box-sizing: border-box; background: rgba(243, 243, 243, .8); text-align: center; font-family: 'Nanum Gothic', sans-serif; font-size: 1.25em; color: #333; padding: 17px 0; transition: .3s;}
+.sub_menu ul li a:hover{background: #fff; font-weight: 700;}
+.sub_menu ul li a::after{content: ""; display: block; width:0; height: 5px; background: #e61a27; position: absolute; bottom: 0; left: 50%; transition: all .4s;}
+.sub_menu ul li:hover a::after{content: ""; display: block; width:200px; left: 24px;}
+
+.sub_menu ul .current a{font-weight: 700; background: #fff;}
+.sub_menu ul .current a::after{content: ""; width: 200px; opacity: 1; position: absolute; bottom: 0; left: 23px;} 
+.sub_menu ul .current a:hover::after{content: ""; display: block; width:200px; left: 24px;}
+
+#content{width: 1200px; margin: 0 auto; position: relative;}
+#content .title_area{margin-top: 100px;}
+#content .line_map{font-family: 'Nanum Gothic', sans-serif; font-size: .875em; color: #fff; position: absolute; top: -447px; right: 100px;}
+#content .title_area h2{font-family: 'Nanum Gothic', sans-serif; font-size: 3.125em; margin: 0 auto; text-align: center;}
+#content .title_area p{font-family: 'Nanum Gothic', sans-serif; font-size: 1.375em; margin: 0 auto; padding-top: 35px; text-align: center;}
+#content .title_area span{color: #e61a27; font-weight: 700;}
+input{outline: 0;}

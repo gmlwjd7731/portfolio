@@ -1,0 +1,39 @@
+/* 브랜드 소식 리스트 */
+
+#list_search{overflow: hidden; width: 958px; height: 58px; border: 1px solid #ccc; padding: 20px; margin: 0 auto 50px;}
+#list_search #list_search1{float: left}
+#list_search #list_search1{float: left}
+#list_search #list_search2{float: left}
+#list_search #list_search3{float: left}
+
+#list_search #list_search1 select{font-family: 'Nanum Gothic', sans-serif; font-size: 16px; padding: 10px; border: solid 1px #ccc; width: 80px; margin: 7.5px 10px 0 175px; height: 43px;cursor: pointer;}
+#list_search #list_search2 input{padding: 10px; border: 1px solid #ccc; width: 378px; font-family: 'Nanum Gothic', sans-serif; font-size: 18px; margin: 7.5px 10px 0 0; height: 21px}
+#list_search #list_search3 input{font-family: 'Nanum Gothic', sans-serif; font-size: 18px; padding: 10px; border: none; background: #e61a27; color: #fff; width: 100px; cursor: pointer; height: 43px; margin-top: 7.5px}
+
+#list_total{margin: 0 0 0 39px; font-family: 'Nanum Gothic', sans-serif; font-size: 16px; float: left}
+
+.scale{float: right; margin-right: 39px; margin-bottom: 20px; border: 1px solid #ccc; padding: 7px 0; cursor: pointer;}
+
+#list_content{overflow: hidden; clear: both;}
+#list_item{width: 500px; height: 450px; float: left; margin: 30px 50px 100px; box-sizing: border-box; border-radius: 20px; overflow: hidden; box-shadow: 0 15px 20px #ccc;}
+
+#list_item #list_item2{font-size: 18px}
+#list_item #list_item2 a{display: block;}
+#list_item #list_item2 span{margin-left: 20px;}
+#list_item #list_item2 a .e_list_image{width: 500px; height: 320px; margin: 0;}
+#list_item #list_item2 a p{font-family: 'Nanum Gothic', sans-serif; font-weight: 700; margin: 30px 20px;}
+#list_item #list_item4{margin-right: 20px; float: right;}
+
+#page_button{clear: both; margin-top: 30px}
+#page_button #page_num{text-align: center; margin-bottom: 10px}
+
+#page_button #button{overflow: hidden; margin-bottom: 120px}
+#page_button #button a{display: block; float: right; background: #e61a27; color: #fff; text-align: center; font-family: 'Nanum Gothic', sans-serif; font-size: 15px; width: 50px; height: 18px; padding: 10px; margin-left: 10px}
+
+
+
+
+
+
+
+

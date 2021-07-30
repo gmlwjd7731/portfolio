@@ -1,0 +1,18 @@
+/* 제조과정 내용 영역 */
+
+#content{background: url(../images/content3/cokeback.png) no-repeat; background-position: right bottom; background-attachment: fixed;}
+#content .title_area{padding: 100px 0; }
+#content .top_bg{width: 100%; height: 717px; background: url(../images/content3/transparent_bg.png) no-repeat; background-position: 100% 0%; position: absolute; left: 0; top: 0;}
+#content .content_area{width: 1200px; left: 50%; margin: 0 auto;}
+
+#content .content_area ul{padding-bottom: 150px;}
+#content .content_area ul li{overflow: hidden; height: 308px; margin-bottom: 30px; position: relative;}
+#content .content_area ul li::before{content: ''; width: 1198px; height: 232px; border: 1px solid #e61a27; position: absolute; left: 0; top: 0;}
+#content .content_area ul li img:nth-of-type(1){float: left; width: 120px; margin: 56px 0 0 56px;}
+#content .content_area ul li img:nth-of-type(2){clear: both; width: 50px; margin-left: 575px; margin-top: 25px;}
+#content .content_area ul li dl{float: left; width: 900px; height: 183px; padding: 50px 53px 0 70px; font-family: 'Nanum Gothic', sans-serif; background: #fff;}
+#content .content_area ul li dl dt{font-size: 1.5em; font-weight: 700;}
+#content .content_area ul li dd{margin-top: 20px; font-size: 1em; line-height: 1.5em; text-align: justify;}
+
+
+

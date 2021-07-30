@@ -1,0 +1,23 @@
+/* 정도경영 소개 내용 영역 */
+
+#content .content_area{overflow: hidden; margin: 100px 0 150px 0;}
+
+#content .content_area .tit1{font-family: 'Open Sans', sans-serif; font-size: 2.25em; font-weight: 600; border-bottom: 1px solid #ccc; padding-bottom: 10px;}
+#content .content_area p{font-family: 'Nanum Gothic', sans-serif; font-size: 16px; line-height: 1.5em; margin-top: 30px;}
+#content .lgway{width: 1200px; height: 451px; background: url(../images/content1/lgway.jpg); margin-top: 100px; position: relative;}
+#content .lgway .top{position: absolute; left: 235px; top: 85px; font-family: 'Nanum Gothic', sans-serif; font-size: 1.125em; color: #fff;}
+#content .lgway .mid{position: absolute; left: 230px; top: 210px;font-family: 'Nanum Gothic', sans-serif; font-size: 1.125em; color: #fff;}
+#content .lgway .bot1{position: absolute; left: 130px; top: 350px;font-family: 'Nanum Gothic', sans-serif; font-size: 1.125em; color: #fff; text-align: center; line-height: 1.5em;}
+#content .lgway .bot2::before{content: ""; width: 1px; height: 40px; background: #ccc; position: absolute; left: -40px; top: 10px;}
+#content .lgway .bot2{position: absolute; left: 300px; top: 350px;font-family: 'Nanum Gothic', sans-serif; font-size: 1.125em; color: #fff; text-align: center; line-height: 1.5em;}
+#content .lgway dl{padding: 30px 0 0 530px;}
+#content .lgway dl dt{margin-bottom: 30px; font-family: 'Nanum Gothic', sans-serif; font-size: 1.375em; width: 130px; height: 40px; background: linear-gradient(to right, rgb(255, 78, 89) 0%,rgb(121, 0, 8) 100%); color: #fff; text-align: center; line-height: 1.8em; border-radius: 20px;}
+#content .lgway dl dd{padding-bottom: 60px; font-family: 'Nanum Gothic', sans-serif; font-size: 1em;}
+
+
+#content .content_area .tit2{font-family: 'Nanum Gothic', sans-serif; font-size: 2.25em; font-weight: 600; margin-top: 150px; border-bottom: 1px solid #ccc; padding-bottom: 10px;}
+#content .content_area ul{padding: 100px 0 10px 0; overflow: hidden; }
+#content .content_area ul li{float: left; margin: 0 34px; border-radius: 0 30px 0 30px; box-shadow: 2px 2px 5px 2px #ccc;}
+#content .content_area ul li img{padding: 35px;}
+#content .content_area ul dl dt{font-family: 'Nanum Gothic', sans-serif; text-align: center; font-size: 1.375em; padding-top: 10px;}
+#content .content_area ul dl dd{font-family: 'Nanum Gothic', sans-serif; text-align: center; font-size: 1em; line-height: 1.5em; margin: 30px 0 40px 0;}

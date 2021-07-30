@@ -1,0 +1,60 @@
+/* SINCE 1886 내용 영역 */
+
+#content .content_area{overflow: hidden; margin: 100px 0 150px 0;}
+
+#content .title_area .tit_box{height: 300px;}
+#content .title_area ul{overflow: hidden; margin-top: 138px; padding-bottom: 50px; width: 800px; margin-left: 200px;}
+#content .title_area ul::after{content: ''; width: 2000px; height: 1px; background: #ccc; position: absolute; top: 335px; left: -400px;}
+#content .title_area ul li{float: left; width: 50%; position: relative;}
+#content .title_area ul li a{font-family: 'Nanum Gothic', sans-serif; display: block; width: 100%;  height: 60px; text-align: center; font-size: 1.125em; color: #999; transition: all .4s ease;}
+#content .title_area ul li a::after{content: ''; width: 10px; height: 10px; border-radius: 50%; background: #999; border: 1px solid #999; position: absolute; left: 50%; margin-left: -5px; bottom: 15px; z-index: 10; transition: all .4s ease;}
+#content .title_area ul li .current{color: #333;}
+#content .title_area ul li .current::after{content: ''; background: #e61a27; border: 1px solid #e61a27;}
+#content .title_area ul li a:hover{color: #333;}
+#content .title_area ul li a:hover::after{content: ''; background: #e61a27; border: 1px solid #e61a27;}
+
+#content .content_area h3{font-family: 'Nanum Gothic', sans-serif; font-size: 2.25em; font-weight: 700; text-align: center; margin-bottom: 70px;}
+
+#content .design_box{width: 100%; height: 557px; background: #f7f7f7; margin-bottom: 150px; position: relative;}
+#content .design_box::before{content: ''; width: 700px; height: 300px; background: #fff; position: absolute; left: 50%; top: 140px; margin-left: -350px; border-radius: 20px;}
+#content .design_box::after{content: ''; width: 700px; height: 300px; border: 2px dashed #e61a27; position: absolute; left: 50%; top: 140px; margin-left: -350px; border-radius: 20px;}
+#content .design_box h3{padding-top: 50px;}
+#content .img_box{width: 1000px; margin: 0 auto; position: relative;}
+#content .img_box .thum{overflow: hidden; position: absolute; left: 0; top: 235px; padding: 10px 0 40px 0; margin-left: 50px;}
+#content .img_box .thum li{float: left; position: relative; width: 100px;}
+#content .img_box .thum li a{display: block; width: 100px; height: 100px;}
+#content .img_box .thum li a::before{content: ''; width: 45px; height: 45px; background: url(../images/content2/coke_1.svg) no-repeat; background-size: contain; position: absolute; left: 45px; top: 55px; transition: all .2s;}
+#content .img_box .thum li span{font-family: 'Open Sans', sans-serif; font-size: 1.25em; font-weight: 700; position: absolute; left: 25px; bottom: -35px; color: #fff; text-shadow: 1px 1px 3px #333; transition: all .2s;}
+#content .img_box .thum li a:hover::before{content: ''; width: 54px; height: 54px; background: url(../images/content2/coke_2.svg) no-repeat; background-size: contain; position: absolute; left: 45px; top: 50px;}
+#content .img_box .thum li a:hover span{font-size: 1.375em; text-shadow: 1px 1px 3px #333;}
+#content .img_box .thum .current span{font-size: 1.375em;}
+#content .img_box .thum .current a::before{content: ''; width: 54px; height: 54px; background: url(../images/content2/coke_2.svg) no-repeat; background-size: contain; position: absolute; left: 45px; top: 50px;}
+
+#content .img_box .con .bottle{float: left; margin: 10px 0 150px 200px;}
+#content .img_box .con dl{float: left; padding: 40px 0 0 50px;}
+#content .img_box .con dl dt{font-family: 'Open Sans', sans-serif; font-size: 1.5em; font-weight: 600;}
+#content .img_box .con dl dd{float: left; font-family: 'Nanum Gothic', sans-serif; font-size: 1em; line-height: 2em; margin-top: 20px;}
+#content .img_box .con li{display: none;}
+
+#content .birth_box{width: 1200px; margin: 0 auto;}
+#content .birth_box dl{font-family: 'Nanum Gothic', sans-serif;}
+#content .birth_box dl dt{font-size: 1.5em; font-weight: 700; border-bottom: 3px solid #e61a27; line-height: 2em;}
+#content .birth_box dl dd{line-height: 1.5em; text-align: justify; margin-top: 20px;}
+#content .birth_box span{color: #666; font-family: 'Nanum Gothic', sans-serif; font-size: .875em; text-align: center;}
+
+#content .birth_con1{position: relative; height: 386px; margin-bottom: 50px;}
+#content .birth_con1 img{float: left;}
+#content .birth_con1 span{display: block; position: absolute; left: 170px; bottom: 15px;}
+#content .birth_con1 dl{float: left; width: 552px; padding-left: 50px; margin-top: 50px;}
+
+#content .birth_con2{position: relative; height: 386px; margin-bottom: 50px;}
+#content .birth_con2 img{float: left;}
+#content .birth_con2 span{display: block; position: absolute; right: 40px; bottom: 35px;}
+#content .birth_con2 dl{float: left; width: 566px; padding-right: 50px;}
+
+#content .birth_con3{position: relative; height: 365px;}
+#content .birth_con3 iframe{float: left;}
+#content .birth_con3 span{display: block; position: absolute; left: 170px; bottom: 15px;}
+#content .birth_con3 dl{float: left; width: 590px; padding-left: 50px; margin-top: 30px;}
+
+

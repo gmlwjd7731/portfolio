@@ -1,0 +1,50 @@
+
+#wrap .main{position: relative; margin-top: 80px;}
+#wrap .visual{width: 100%; height: 160px; background: url(../images/sub1/visula.jpg) no-repeat center; background-size: cover; border-radius: 0 0 20px 20px;}
+
+#content{margin: 0 10px 50px 10px;}
+#content h2{font-size: 2em; font-family: 'Open Sans', sans-serif; font-weight: 700; text-align: center; margin: 40px 0 20px 0;}
+#content .intro_txt{text-align: center; line-height: 1.5em;}
+#content .intro_txt span{color: #e61a27; font-weight: 700;}
+#content h3{font-size: 1.4em; font-weight: 700; margin: 50px 0 40px 0; text-align: center;}
+#content h3:nth-of-type(1){font-family: 'Open Sans', sans-serif;}
+
+#content .swiper-container {
+    width: 100%;
+    padding-bottom: 30px;
+  }
+#content .swiper-slide {
+    text-align: center;
+    font-size: 14px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    width: 50%;
+  }
+
+#content .swiper-slide img{width: 150px; height: 208px; margin-bottom: 250px;}
+#content .swiper-slide .history_txt{position: absolute; top: 230px;}
+#content .swiper-slide dl dt{font-size: 1.25em; font-weight: 700; margin-bottom: 15px;}
+#content dd{text-align: justify; line-height: 1.5em;}
+#content .swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction{bottom: 0}
+
+#content .birth_con img{width: 90%; margin: 0 5%;}
+#content .birth_con .con_img2{margin-top: 30px;}
+#content .birth_con dt{font-size: 1.2em; font-weight: 700; border-bottom: 2px solid #e61a27; line-height: 2em; margin: 30px 0 20px 0;}
+#content .birth_con dd{margin-top: 20px;}
+
+#content .birth_con .video-container{margin-top: 30px; position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;}
+#content .birth_con .video-container iframe,.video-container object,.video-container embed{position: absolute; top: 0; left: 0; width: 100%; height: 100%;}
+

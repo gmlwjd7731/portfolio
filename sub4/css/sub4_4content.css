@@ -1,0 +1,39 @@
+/* 후원&지원 소개 내용 영역 */
+
+
+#content .content_area{overflow: hidden; margin: 100px 0 150px 0;}
+
+#content .title_area .tit_box{height: 300px;}
+#content .title_area ul{overflow: hidden; margin-top: 138px; padding-bottom: 50px; width: 800px; margin-left: 200px;}
+#content .title_area ul::after{content: ''; width: 2000px; height: 1px; background: #ccc; position: absolute; top: 235px; left: -400px;}
+#content .title_area ul li{float: left; width: 50%; position: relative;}
+#content .title_area ul li a{font-family: 'Nanum Gothic', sans-serif; display: block; width: 100%;  height: 60px; text-align: center; font-size: 1.125em; color: #999; transition: all .4s ease;}
+#content .title_area ul li a::after{content: ''; width: 10px; height: 10px; border-radius: 50%; background: #999; border: 1px solid #999; position: absolute; left: 50%; margin-left: -5px; bottom: 15px; z-index: 10; transition: all .4s ease;}
+#content .title_area ul li .current{color: #333;}
+#content .title_area ul li .current::after{content: ''; background: #e61a27; border: 1px solid #e61a27;}
+#content .title_area ul li a:hover{color: #333;}
+#content .title_area ul li a:hover::after{content: ''; background: #e61a27; border: 1px solid #e61a27;}
+
+#content .content_area h3{font-family: 'Nanum Gothic', sans-serif; font-size: 2.25em; font-weight: 700; text-align: center; margin-bottom: 70px;}
+
+#content .content_area h3{font-family: 'Nanum Gothic', sans-serif; font-size: 2.25em; font-weight: 700; text-align: center; margin-bottom: 70px;}
+#content .tit_text1, .tit_text2{font-family: 'Nanum Gothic', sans-serif; font-size: 1.125em; text-align: center; margin-bottom: 80px; line-height: 1.5em;}
+#content .tit_text1 span, .tit_text2 span{color: #e61a27;}
+
+#content .con1_list{overflow: hidden;}
+#content .con1_list li img{float: left;}
+#content .con1_list li dl{float: left; font-family: 'Nanum Gothic', sans-serif; width: 600px; height: 600px; background: #fafafa;}
+#content .con1_list li dt{font-size: 1.375em; text-align: center; font-weight: 700; margin-top: 230px; line-height: 1.5em;}
+#content .con1_list li dd{font-size: 1em; text-align: center; margin-top: 50px; line-height: 1.5em;}
+#content .kfa span{font-family: 'Nanum Gothic', sans-serif; font-size: 1.375em; text-align: center; display: block; margin: 100px 0 40px 0; color: #0c86ba; font-weight: 600;}
+#content .kfa p{ font-family: 'Nanum Gothic', sans-serif;  line-height: 1.5em; font-size: 1em; text-align: center; margin-bottom: 50px;}
+
+#content .con2_list{overflow: hidden;}
+#content .con2_list li img{float: left;}
+#content .con2_list li dl{float: left; font-family: 'Nanum Gothic', sans-serif; width: 600px; height: 600px; background: #fafafa;}
+#content .con2_list li dt{font-size: 1.375em; text-align: center; font-weight: 700; margin-top: 230px; line-height: 1.5em;}
+#content .con2_list li dd{font-size: 1em; text-align: center; margin-top: 50px; line-height: 1.5em;}
+#content .cokasport span{font-family: 'Nanum Gothic', sans-serif; font-size: 1.375em; text-align: center; display: block; margin: 100px 0 40px 0; color: #e61a27; font-weight: 600;}
+#content .cokasport p{ font-family: 'Nanum Gothic', sans-serif;  line-height: 1.5em; font-size: 1em; text-align: center; margin-bottom: 70px;}
+
+#content .contlist{display: none;}

@@ -1,0 +1,55 @@
+/* 코카콜라 갤러리 내용 영역 */
+
+#content .content_area{overflow: hidden; margin: 100px 0 150px 0;}
+
+#content .title_area .tit_box{height: 300px;}
+#content .title_area ul{overflow: hidden; margin-top: 138px; padding-bottom: 50px; width: 800px; margin-left: 200px;}
+#content .title_area ul::after{content: ''; width: 2000px; height: 1px; background: #ccc; position: absolute; top: 335px; left: -400px;}
+#content .title_area ul li{float: left; width: 50%; position: relative;}
+#content .title_area ul li a{font-family: 'Nanum Gothic', sans-serif; display: block; width: 100%;  height: 60px; text-align: center; font-size: 1.125em; color: #999; transition: all .4s ease;}
+#content .title_area ul li a::after{content: ''; width: 10px; height: 10px; border-radius: 50%; background: #999; border: 1px solid #999; position: absolute; left: 50%; margin-left: -5px; bottom: 15px; z-index: 10; transition: all .4s ease;}
+#content .title_area ul li .current{color: #333;}
+#content .title_area ul li .current::after{content: ''; background: #e61a27; border: 1px solid #e61a27;}
+#content .title_area ul li a:hover{color: #333;}
+#content .title_area ul li a:hover::after{content: ''; background: #e61a27; border: 1px solid #e61a27;}
+
+#content .video{background: url(../images/content4/top_bg.jpg) no-repeat center top; width: 100%; margin: 0 auto;}
+#content .video .tit{width: 1100px; margin: 0 auto;}
+#content .video .tit h3{font-family: 'Open Sans', sans-serif; font-size: 3em; font-weight: 700; text-align: left; padding: 70px 0 30px 0; color: #fff;}
+#content .video .tit p{font-family: 'Nanum Gothic', sans-serif; font-size: 1.25em; text-align: left; color: #fff; line-height: 2em;}
+
+#content .video .wrap{overflow: hidden; margin-right: 800px; width: 1200px; margin: 0 auto;}
+#content .video .wrap iframe{margin-top: 120px; position: relative; left: 50%; margin-left: -550px;}
+#content .video .wrap ul{overflow: hidden; width: 1100px; margin: 50px 0 0 50px;}
+#content .video .wrap ul li{float: left; width: 240px; height: 280px; margin-left: 46px;}
+#content .video .wrap ul li a{display: block; width: 240px; height: 280px; position: relative;}
+#content .video .wrap ul a::before{content: ''; width: 228px; height: 138px; border: 6px solid #e61a27; position: absolute; left: 0; top: 0; opacity: 0; transition: all .3s;}
+#content .video .wrap ul a:hover:before{opacity: 1;}
+#content .video .wrap ul a::after{content: ''; width: 47px; height: 47px; background: url(../images/content4/play_icon.png); position: absolute; left: 97px; top: 52px;}
+#content .video .wrap ul li:nth-of-type(1){margin-left: 0;}
+#content .video .wrap ul li:nth-of-type(5){margin-left: 0;}
+#content .video .wrap ul li i{font-size: 1.125em; color: #e61a27; padding-top: 20px;}
+#content .video .wrap ul li span{font-family: 'Open Sans', sans-serif; font-size: 1em; color: #e61a27; padding-left: 5px;}
+#content .video .wrap ul li p{font-family: 'Nanum Gothic', sans-serif; font-size: 1em; text-align: left; padding-top: 7px; line-height: 1.5em;}
+
+#content .photo .tit{width: 1200px; margin: 0 auto;}
+#content .photo .tit h3{font-family: 'Nanum Gothic', sans-serif; font-size: 2.25em; font-weight: 600; text-align: center; margin-bottom: 40px;}
+#content .photo .tit p{font-family: 'Nanum Gothic', sans-serif; font-size: 1.125em; text-align: center; margin-bottom: 50px; line-height: 1.5em;}
+#content .photo .tit span{color: #e61a27;}
+
+#content .photo ul{overflow: hidden; width: 1200px; margin: 0 auto;}
+#content .photo ul li{float: left; margin: 30px 20px; position: relative;}
+#content .photo ul li::after{content: '';}
+#content .photo ul li a{display: block; width: 260px; height: 329px; position: absolute; left: 0; top: 0; opacity: 0; transition: all .3s;;}
+#content .photo ul li .coke{background: rgba(230, 26, 39, .8);}
+#content .photo ul li .sprite{background: rgba(0, 132, 0, .8);}
+#content .photo ul li .power{background: rgba(0, 116, 205, .8);}
+#content .photo ul li .coffe{background: rgba(71, 41, 8, .8);}
+#content .photo ul li .juice{background: rgba(255, 166, 0, 0.8);}
+#content .photo ul li:hover a{opacity: 1; top:0; box-shadow: 0px 5px 20px #999;}
+
+#content .photo ul li a p{font-family: 'Nanum Gothic', sans-serif; font-size: 1.125em; font-weight: 700; text-align: center; color: #fff; margin-top: 20px;}
+#content .photo ul li a span{display: block; font-size: 6em; color: #fff; text-align: center; position: relative; margin-top: 90px;}
+#content .photo ul li a span::before{content: ''; width: 74px; height: 74px; border: 2px solid #fff; border-radius: 50%; position: absolute; left: 90px; top: 15px;}
+
+#content .contlist{display: none;}

@@ -1,0 +1,60 @@
+{
+    "factory":[
+        {
+            "division"  : "ISO14001" ,
+            "yeoju"     : "인증취득" ,
+            "yangsan"   : "인증취득" ,
+            "gwangju"   : "인증취득" 
+        },
+        {
+            "division"  : "OHSAS18001" ,
+            "yeoju"     : "인증취득" ,
+            "yangsan"   : "인증취득" ,
+            "gwangju"   : "인증취득" 
+        },
+        {
+            "division"  : "탄소성적<br>표지제도" ,
+            "yeoju"     : "인증취득<br>(2개)" ,
+            "yangsan"   : "인증취득<br>(1개)" ,
+            "gwangju"   : "인증취득<br>(1개)" 
+        },
+        {
+            "division"  : "폐기물 감량<br>자발적 협약" ,
+            "yeoju"     : "협약 체결" ,
+            "yangsan"   : "협약 체결" ,
+            "gwangju"   : "협약 체결" 
+        },
+        {
+            "division"  : "녹색기업" ,
+            "yeoju"     : "지정" ,
+            "yangsan"   : "추진" ,
+            "gwangju"   : "지정" 
+        },
+        {
+            "division"  : "에너지 절약<br>자발적 협약" ,
+            "yeoju"     : "협약 체결" ,
+            "yangsan"   : "협약 체결" ,
+            "gwangju"   : "-" 
+        },
+        {
+            "division"  : "배출권 거래제<br>시범사업" ,
+            "yeoju"     : "협약 체결" ,
+            "yangsan"   : "-" ,
+            "gwangju"   : "협약 체결" 
+        },
+        {
+            "division"  : "페트병 감축<br>자발적 협약" ,
+            "yeoju"     : "협약 체결" ,
+            "yangsan"   : "협약 체결" ,
+            "gwangju"   : "협약 체결" 
+        },
+        {
+            "division"  : "산업계 녹색구매<br>자발적 협약" ,
+            "yeoju"     : "협약 체결" ,
+            "yangsan"   : "협약 체결" ,
+            "gwangju"   : "협약 체결" 
+        }
+
+
+    ]
+}

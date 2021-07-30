@@ -1,0 +1,69 @@
+
+#wrap .main{position: relative; margin-top: 80px;}
+#wrap .visual{width: 100%; height: 160px; background: url(../images/sub4/visula.jpg) no-repeat center; background-size: cover; border-radius: 0 0 20px 20px;}
+
+#content {margin-bottom: 50px;}
+#content h2{font-size: 1.875em; font-weight: 700; text-align: center; margin: 40px 0 20px 0;}
+
+#content .tabs{overflow: hidden; margin: 40px 10px; border: 1px solid #ccc;}
+#content .tabs a{display: block; float: left; height: 35px; position: relative; border-right: 1px solid #ccc; text-align: center; color: #666; line-height: 2.5em; box-sizing: border-box;}
+#content .tabs a:nth-of-type(1){width: 30%;}
+#content .tabs a:nth-of-type(2){width: 40%;}
+#content .tabs a:nth-of-type(3){width: 30%; border-right: 0;}
+#content .tabs .active{color: #fff; background: #e61a27;}
+
+#content .page1, .page2, .page3{width: 90%; margin: 0 5%;}
+#content h3{font-size: 1.4em; font-weight: 700; text-align: center;}
+#content .tit_text1, .tit_text2, .tit_text3{text-align: justify; margin-top: 20px; line-height: 1.5em;}
+#content .tit_text1 span, .tit_text3 span{color: #e61a27;}
+#content .page1 img{width: 80%; border-radius: 15px 0 15px 0; margin: 20px 10%}
+#content .page1 ul{margin: 0 10px;}
+#content .page1 ul li p{line-height: 1.5em; margin-top: 15px; text-align: justify;}
+#content .page1 ul li span{font-family: 'Open Sans', sans-serif; font-size: 1.25em; margin-right: 10px; color: #f8c82b; font-weight: 600;}
+
+#content .page2 ul{overflow: hidden; padding-top: 20px;}
+#content .page2 ul li{border: 1px solid #2a92db; margin-top: 15px; border-radius: 10px;}
+#content .page2 ul li span{display: block; margin: 10px auto; font-size: 1.125em; font-weight: 700; text-align: center; display: block; width: 90px; height: 30px; background: linear-gradient(to right, rgb(110, 195, 255) 0%,rgb(0, 69, 118) 100%); color: #fff; text-align: center; line-height: 1.8em; border-radius: 30px;}
+#content .page2 ul li p{font-size: 1em; text-align: center; margin: 10px; line-height: 1.5em;}
+#content .page2 .drop{margin: 0 auto;}
+#content .page2 .drop1{width: 10%; margin: 0 45%;
+                    animation-name: drop; animation-duration: 2s; animation-iteration-count: infinite; transition: ease;}
+                    @keyframes drop{
+                            0% {
+                            transform: translateY(10%); opacity: 10%;
+                        }
+                        100% {
+                            transform: translateY(80%); opacity: 40%;
+                        }
+                    }
+#content .page2 .drop2{width: 10%; margin: 0 45%;
+                        animation-name: drop2; animation-duration: 2s; animation-iteration-count: infinite; transition: ease;}
+                        @keyframes drop2{
+                                0% {
+                                transform: translateY(40%); opacity: 10%;
+                            }
+                            100% {
+                                transform: translateY(110%); opacity: 60%;
+                            }
+                        }
+#content .page2 .drop3{width: 10%; margin: 0 45%;
+                            animation-name: drop3; animation-duration: 2s; animation-iteration-count: infinite; transition: ease;}
+                            @keyframes drop3{
+                                    0% {
+                                    transform: translateY(60%); opacity: 10%;
+                                }
+                                100% {
+                                    transform: translateY(130%); opacity: 100%;
+                                }
+                            }
+#content .page2 .con2_txt{margin-top: 20px; border: 2px dashed #2a92db; margin-top: 20%; padding: 20px 10px;}
+#content .page2 .con2_txt span{font-size: 1.3em; font-weight: 700; padding-bottom: 10px; text-align: left; display: block; color: #063d64;}
+#content .page2 .con2_txt p{font-size: 1.125em; margin: 15px 0;}
+
+#content .page3 .table_tit{display: block; margin-top: 30px; font-size: .9em;}
+#content .page3 table{text-align: center; border-top: 1px solid #999; border-bottom: 2px solid #ccc; margin-top: 5px;}
+#content .page3 table thead th{padding: 10px 0; border-right: 1px solid #ccc; border-bottom: 1px solid #ccc; background: #f7f7f7;}
+#content .page3 table thead th:last-of-type{border-right: 0;}
+#content .page3 table tbody th{padding: 10px 0; line-height: 1.5em; border-right: 1px solid #ccc; background: #f7f7f7; border-bottom: 1px solid #ccc;}
+#content .page3 table td{border-bottom: 1px solid #ccc; border-right: 1px solid #ccc; padding: 10px 0;}
+#content .page3 table td:last-of-type{border-right: 0;}

@@ -1,0 +1,14 @@
+body{background: #f7f7f7;}
+form{background: #fff; width: 900px; margin: 200px auto; box-shadow: 0px 5px 10px #ccc; overflow: hidden; border-radius: 20px;}
+form .form_box{width: 400px; float: left;}
+form .form_img{width: 500px; height: 600px; float: right; background: url(../coke.jpg) center no-repeat; background-size: cover;}
+.logo a{display: block; width: 200px; height: 65px; background: url(../logo.jpg) no-repeat; text-indent: -999px; overflow: hidden;position: relative; top: 50px; left: 50%;  margin-left: -100px;}
+ul{margin-top: 150px; width: 300px;}
+ul li{list-style: none; margin-top: 30px; border-bottom: 1px solid #999;}
+ul li input{width: 250px; height: 30px; border: 0;  outline: 0; font-size: 22px;}
+ul li span i{font-size: 24px; color: #999; margin-right: 15px;}
+#login_button button{border: 0; display: block; background: #e61a27; color: #fff; width: 280px; height: 50px; cursor: pointer; font-size: 18px; margin: 50px auto 10px;}
+#login_button a{display: block; background: #666; color: #fff; width: 280px; height: 50px; margin: 0 auto; text-decoration: none; text-align: center; line-height: 3em;}
+#join_button{text-align: center;}
+#join_button span{margin: 30px 10px 0 0; display: inline-block;}
+#join_button a{text-decoration: none; color: #e61a27; font-size: 20px; font-weight: 600;}

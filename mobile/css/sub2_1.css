@@ -1,0 +1,20 @@
+
+#wrap .main{position: relative; margin-top: 80px;}
+#wrap .visual{width: 100%; height: 160px; background: url(../images/sub2/visula.jpg) no-repeat center; background-size: cover; border-radius: 0 0 20px 20px;}
+
+#content{margin: 0 10px 50px 10px;}
+#content h2{font-size: 1.875em; font-weight: 700; text-align: center; margin: 40px 0 20px 0;}
+#content p{line-height: 1.5em; text-align: justify;}
+#content .intro_txt{text-align: center;}
+#content .intro_txt span{color: #e61a27; font-weight: 700;}
+
+#content .con1 img{width: 80%; margin: 20px 10%;}
+#content .con1 span{color: #e61a27;}
+
+#content .con2{margin-top: 30px;}
+#content .con2 span{font-weight: 700;}
+#content .con2_box{overflow: hidden; margin-bottom: 20px;}
+#content .con2 .con2_txt1{float: left; width: 60%; margin-right: 2%;}
+#content .con2 img{float: right; width: 38%;}
+#content .con2 .con2_txt2{clear: both; margin-bottom: 20px;}
+

@@ -1,0 +1,97 @@
+
+#wrap .main{position: relative; margin-top: 80px;}
+#wrap .visual{width: 100%; height: 160px; background: url(../images/sub1/visula.jpg) no-repeat center; background-size: cover; border-radius: 0 0 20px 20px;}
+
+#content section{position: relative; right:-1000px; top:0; opacity: 0; transition: all .8s}
+
+#content {margin: 0 10px 50px 10px;}
+#content h2{font-size: 1.875em; font-weight: 700; text-align: center; margin: 40px 0 20px 0;}
+#content .subNav{width: 100%;}
+#content .subNav ul{overflow: hidden; margin: 40px auto; width: 100%; border: 1px solid #ccc;}
+#content .subNav ul li{float: left; width: 33.33%; position: relative; border-right: 1px solid #ccc; box-sizing: border-box;}
+#content .subNav ul li:last-child{border-right: 0;}
+#content .subNav ul li a{display: block; width: 100%;  height: 35px; text-align: center; color: #666; line-height: 2.5em; transition: all .4s ease;}
+#content .subNav ul .current{color: #fff; background: #e61a27;}
+#content .intro_img{width: 80%; margin: 40px 10% 0 10%;}
+#content .intro_txt{text-align: justify; line-height: 1.5em; margin: 20px 10px; font-size: .9em;}
+#content .intro_txt span{display: block; font-family: 'Open Sans', sans-serif;text-align: center; color: #e61a27; font-weight: 700;}
+#content .main_txt{position: relative; bottom:-1000px; opacity: 0; transition: all .8s}
+
+#content h3{font-size: 1.4em; font-weight: 700; text-align: left; position: relative;margin: 10px 0 30px 0; line-height: 2em;}
+#content section{margin-top: 50px; position: relative;}
+
+#content .brand h3{border-bottom: 2px solid #e61a27;}
+#content .brand img{width: 100%;}
+#content .brand span{display: block; color: #e61a27; text-align: center;}
+
+#content .brand ul{overflow: hidden; margin-top: 40px;}
+#content .brand ul li{float: left; width: 46%; height: 200px; margin: 10px 2% 10px 2%; position: relative; background: #f7f7f7; border-radius: 0 20px 20px 20px; overflow: hidden;}
+#content .brand ul li img{width: 60px; display: block; margin: 30px auto;}
+#content .brand ul li p{font-weight: 700; text-align: center; margin-top: 0px; line-height: 1.5em;}
+
+#content .portfolio h3{border-bottom: 2px solid #0034c2;}
+
+#content .portfolio .portfolio_box{width: 100%; height: 80px; margin: 20px auto; background: url(../images/sub1/earth.jpg) center no-repeat; background-size: cover; overflow: hidden; position: relative;}
+#content .portfolio dl{color: #fff; float: left; text-align: center; display: block; width: 50%; margin-top: 20px;}
+#content .portfolio dt{font-weight: 700;}
+#content .portfolio dd{font-size: .85em; padding-top: 10px;}
+
+#content .portfolio .produck_list ul{overflow: hidden;}
+#content .portfolio .produck_list li{float: left; width: 50%; position: relative; margin-top: 10px;}
+#content .portfolio .produck_list li img{display: block; width: 60px; padding: 10px; margin: 0 auto; border: 2px dotted #999; border-radius: 50%;}
+#content .portfolio .produck_list li p{text-align: center; line-height: 1.5em;}
+
+#content .portfolio .brand_list{margin: 20px 0 80px 0; border: 1px solid #ccc;overflow: hidden;}
+#content .portfolio .brand_list p span{display: block; font-size: 1.125em; font-weight: 700; text-align: center; margin: 20px 0;}
+#content .portfolio .brand_list p{line-height: 1.5em; text-align: justify; margin: 0 10px 20px 10px;}
+#content .portfolio .brand_logo{margin: 0 5px 20px 5px;}
+#content .portfolio .brand_logo img{width: 100%; margin: 10px 0;}
+#content .swiper1{padding-bottom: 20px;}
+
+#content .swiper-container {
+    width: 100%;
+  }
+#content .swiper-slide {
+    text-align: center;
+      font-size: 18px;
+
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+
+#content .future{background: url(../images/sub1/nature.jpg) no-repeat; background-position: center bottom; margin: 50px 0;}
+#content .future h3{top: -50px; border-bottom: 2px solid #005700;}
+
+#content .gallery{position: relative; overflow: hidden; width: 75%; height:370px; left:0; top:0; background: rgba(255, 255, 255, .9); border-radius: 20px; margin-bottom: 50px;}
+
+#content .gallery .future_img{width: 220px; position: relative; margin: 30px 0 10px 0; border: 1px solid #005700;}
+#content .gallery dl{font-family: 'Nanum Gothic', sans-serif; text-align: center; position: relative; width: 90%; margin: 5px auto;}
+#content .gallery dt{font-size: 1.2em; font-weight: 700; font-size: 16px; margin-bottom: 10px;}
+#content .gallery dd{line-height: 1.5em; padding: 2%; font-size: 14px; text-align: justify;}
+#content .swiper-button-next:after, .swiper-button-prev:after{color: #fff;}
+#content .swiper2 .swiper-pagination-bullet{background: #fff;}
+
+
+/* 상단 고정 sticky menu */
+.navOn{position: fixed; z-index:60; top: 0; left: 0; background: #fff; box-shadow: 0 0 10px #999;}
+#content .title_area .navOn li a{font-weight: 600; font-size: 1.25em; text-align: center; color: #e61a27; line-height: 3em; padding: 5px 0;}
+#content .navOn li a::after{content: ''; display: none;}
+
+/* 메뉴 활성화  scroll spy */
+#content .subNav .spy{background: #e61a27; color: #fff}
+#content .navOn ul li .spy{background: #e61a27; color: #fff}
+
+/* scroll animation 최종값(목적지)  */
+#content .boxMove{right:0; opacity: 1}
+#content .boxMove1{bottom:0; opacity: 1}

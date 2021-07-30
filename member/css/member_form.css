@@ -1,0 +1,24 @@
+body{background: #f7f7f7; font-family: 'Nanum Gothic', sans-serif;}
+#content{width: 1200px; margin: 0 auto;}
+#content h2{margin: 50px auto; text-align: center; width: 100%; font-size: 30px;}
+#content span{display: block; margin: 0 0 10px 80px; font-size: 14px;}
+#content span i{color: #e61a27;}
+#content .logo a{display: block; width: 200px; height: 65px; background: url(../images/logo.jpg) no-repeat; text-indent: -999px; overflow: hidden;position: relative; left: 50%;  margin-left: -100px;}
+
+form{border: 1px solid #ccc; border-radius: 20px; padding: 50px; width: 800px; margin: 100px auto; background: #fff;}
+
+table{width: 80%; margin: 0 10%; }
+th,td{border-top: 1px solid #ddd; padding: 10px; }
+th{width: 30%; border-right: 1px solid #ddd;background: #f8f8f8;}
+td{width: 70%; position: relative;}
+td input{width: 90%;}
+th i{color: #e61a27; margin-left: 10px;}
+input, select{padding: 5px; border-radius: 2px; font-size: 1.5em; border: 1px solid #eee; outline: 0;}
+.hp input{width: 100px;}
+.mail input{width: 180px;}
+table tr:last-child td{text-align: center; padding: 20px 0}
+.mem_btn{text-align: center;}
+.fin{background: #e61a27; color: #fff; display: inline-block; padding: 20px 50px;}
+.re{background: #666; color: #fff; display: inline-block; padding: 20px 50px;}
+
+#loadtext span ,#loadtext2 span{position: absolute; top: 20px; right: 50px; font-size: 14px;}

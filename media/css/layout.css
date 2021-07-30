@@ -1,0 +1,690 @@
+/* 와이드 pc  */
+
+	
+.videoBox{width:100%;height:100%; overflow:hidden; position:absolute}
+#videoBG {
+   position:fixed; /*고정=>fixed/ 스크롤처리=>absolute */
+   left:50%;
+   top:50%; /*오른쪽, 아래에 여백을 두지않고 꽉차게 표시*/
+   width:auto;
+   min-width:100%; /*동영상 너비를 꽉차게*/
+   height:auto;
+   min-height:100%; /*동영상 높이를 꽉차게*/
+  transform:translateX(-50%) translateY(-50%);
+   z-index:-100; /*다른요소보다 아래에 위치*/
+  
+}
+
+#imgBG{
+	position:absolute; /*고정=>fixed/ 스크롤처리=>absolute */
+   left:50%;
+   top:50%; /*오른쪽, 아래에 여백을 두지않고 꽉차게 표시*/
+   width:auto;
+   min-width:100%; /*동영상 너비를 꽉차게*/
+   height:auto;
+   min-height:100%; /*동영상 높이를 꽉차게*/
+  transform:translateX(-50%) translateY(-50%);
+   z-index:-100;
+   display:none
+}
+
+.down{font-family: 'Roboto Condensed', sans-serif; color: #fff!important; display: block; font-size: 24px; position: absolute; left:50%; margin-left: -70px; bottom: 10%;}
+.down span{display: block; width: 80px; height: 60px; background: url(../images/whaleicon.png) center no-repeat; background-size: cover; margin: 10px auto; position: relative; animation:ani 1s infinite alternate;}
+@keyframes ani {
+	0% { top: 15px;}
+	100% { top: 50px;}
+}	
+	
+
+
+
+#content{position: relative; background: rgba(0 ,0 ,0 ,.7);}
+#content section{
+   overflow: hidden;
+}
+#content h3{
+   font-family: 'Roboto Condensed', sans-serif; 
+   color: #fff; 
+   font-size: 60px; 
+   text-align: center;
+   text-shadow: 1px 1px 3px #666;
+   position: relative;
+   margin: 120px 0;
+   transition: .3s;
+}
+#content h3::after{
+   content: '';
+   width: 100px;
+   height: 5px;
+   background: #fecd08;
+   position: absolute;
+   top: 80px;
+   left: 50%;
+   margin-left: -50px;
+}
+
+/* WHO WE ARE 영역 */
+
+#content .who .who_wrap{
+   width: 90%;
+   max-width: 1400px;
+   margin: 0 auto;
+   overflow: hidden;
+   transition: .3s;
+}
+
+#content .who .who_wrap .who_leftbox{
+   width: 45%;
+   height: 450px;
+   background: url(../images/whoweare_1.jpg) center right no-repeat;
+   background-size: cover;
+   float: left;
+   margin: 4% 0;
+   transition: .3s;
+}
+
+#content .who .who_wrap .who_rightbox{
+   margin-top: 3%;
+   width: 50%;
+   float: right;
+   text-align: left;
+}
+
+#content .who .who_wrap .who_rightbox ul{
+   margin: 5% 0;
+   overflow: hidden;
+   width: 100%;
+}
+
+#content .who .who_wrap .who_rightbox ul li{
+   float: left;
+   width: 30%;
+   height: 340px;
+   margin: 0 1.5%;
+   transition: .3s;
+}
+
+#content .who .who_wrap .who_rightbox ul li:nth-of-type(1){
+  background: url(../images/whoweare_2.jpg) top right no-repeat;
+   background-size: cover;
+}
+
+#content .who .who_wrap .who_rightbox ul li:nth-of-type(2){
+   background: url(../images/whoweare_3.jpg) top right no-repeat;
+    background-size: cover;
+ }
+ #content .who .who_wrap .who_rightbox ul li:nth-of-type(3){
+   background: url(../images/whoweare_4.jpg) top right no-repeat;
+    background-size: cover;
+ }
+
+/* CHANNEL 영역 */
+
+#content .channer ul{
+   width: 90%;
+   margin: 0 5%;
+   overflow: hidden;
+   background: #000;
+   padding: 100px 50px 80px;
+   transition: .3s;
+}
+
+#content .channer ul li{
+   width: 33.33%;
+   float: left;
+   position: relative;
+   box-sizing: border-box;
+}
+
+#content .channer li img{
+   width: 90%;
+   margin: 0 5%;
+   box-sizing: border-box;
+   border: 5px solid #000;
+   transition: .3s;
+}
+
+#content .channer li i{
+   position: absolute;
+   left: 50%;
+   top: 25%;
+   margin-left: -25px;
+   font-size: 3.5vw;
+   color: rgba(255, 255, 255, 0.7);
+   transition: .3s;
+}
+
+#content .channer ul a:hover i{
+   color: rgba(254 ,205 ,8 ,1);
+   transform: scale(1.1);
+}
+
+#content .channer ul a:hover img{
+   border: 5px solid #fecd08;
+}
+
+#content .channer ul li p{
+   margin: 50px 0;
+   text-align: center;
+   padding: 0 10px;
+}
+
+/* MAGAZINES 영역 */
+
+#content .magazines .inWrap {
+	position: relative;
+   padding-top: 50px;
+   background: rgba(0 ,0 ,0 ,.8);
+   margin-bottom: 100px;
+}
+
+#content .magazines .fInner {
+	margin: 0 auto;	width: 90%; overflow: hidden;
+	padding: 3% 0;
+}
+
+#content .magazines li {
+	float: left; 
+   width: 300px; height: 436px;	margin-bottom: 4em; list-style: none;
+   transition: .3s;
+}
+
+#content .magazines li a {
+	position: relative;
+	display: block;
+   width: 100%;
+   height: 100%; 
+	text-align: center;
+}
+#content .magazines li span {
+   font-family: 'Noto Serif KR', serif;
+   font-size: 18px;
+	display: block;
+	position: absolute;
+	bottom: -3em;
+	width: 100%;
+   color: #fff;
+}
+
+#content .magazines li:nth-child(1) a{
+	background: url(../images/magazines_1.jpg) center center no-repeat;
+	background-size: cover;
+}
+#content .magazines li:nth-child(2) a{
+	background: url(../images/magazines_2.jpg) center center no-repeat;
+	background-size: cover;
+}
+#content .magazines li:nth-child(3) a{
+	background: url(../images/magazines_3.jpg) center center no-repeat;
+	background-size: cover;
+}
+#content .magazines li:nth-child(4) a{
+	background: url(../images/magazines_4.jpg) center center no-repeat;
+	background-size: cover;
+}
+#content .magazines li:nth-child(5) a{
+	background: url(../images/magazines_5.jpg) center center no-repeat;
+	background-size: cover;
+}
+#content .magazines li:nth-child(6) a{
+	background: url(../images/magazines_6.jpg) center center no-repeat;
+	background-size: cover;
+}
+#content .magazines li:nth-child(7) a{
+	background: url(../images/magazines_7.jpg) center center no-repeat;
+	background-size: cover;
+}
+#content .magazines li:nth-child(8) a{
+	background: url(../images/magazines_8.jpg) center center no-repeat;
+	background-size: cover;
+}
+#content .magazines li:nth-child(9) a{
+	background: url(../images/magazines_9.jpg) center center no-repeat;
+	background-size: cover;
+}
+#content .magazines li:nth-child(10) a{
+	background: url(../images/magazines_10.jpg) center center no-repeat;
+	background-size: cover;
+}
+#content .magazines li:nth-child(11) a{
+	background: url(../images/magazines_11.jpg) center center no-repeat;
+	background-size: cover;
+}
+#content .magazines li:nth-child(12) a{
+	background: url(../images/magazines_12.jpg) center center no-repeat;
+	background-size: cover;
+}
+
+#content .magazines .swiper-pagination {
+	position: relative;
+	margin-top: 50px;
+}
+
+#content .magazines .swiper-button-next, #content .magazines .swiper-button-prev{
+   top: 40%;
+}
+
+#content .magazines .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet{
+   width: 50px;
+   height: 8px;
+   border-radius: 0;
+   margin: 0;
+}
+
+
+/* FOLLOW US 영역 */
+
+#content .follow{
+   background: url(../images/follwus_bg.jpg) center no-repeat;
+   background-size: cover;
+   position: relative;
+}
+
+#content .follow .follow_wrap{
+   width: 90%;
+   max-width: 1400px;
+   margin: 10% auto 100px;
+   overflow: hidden;
+   z-index: 100;
+}
+
+#content .follow h3{
+   margin: 80px 0;
+}
+
+#content .follow .follow_leftbox{
+   width: 46%;
+   margin: 0 2%;
+   float: left;
+   position: relative;
+}
+
+#content .follow .follow_leftbox p{
+   margin: 10% 0;
+   text-align: left;
+}
+
+#content .follow .youtube{
+   width: 50%;
+   float: left;
+   margin: 230px 0 100px ;
+   position: relative;
+}
+
+#content .follow .youtube img:nth-of-type(1){
+   filter: grayscale(90%);
+   transition: .3s;
+}
+
+#content .follow .youtube:hover img:nth-of-type(1){
+   filter: none;
+}
+
+#content .follow .youtube:hover img:nth-of-type(2){
+   filter: none;
+   transform: scale(1.1);
+}
+
+#content .follow .youtube img:nth-of-type(2){
+   width: 90px;
+   position: absolute;
+   top: 35%;
+   left: 50%;
+   margin-left: -40px;
+   transition: .3s;
+}
+
+#content .follow .youtube img{
+   width: 90%;
+}
+
+#content .follow ul{
+   margin-top: 40px;
+   overflow: hidden;
+   clear: both;
+   padding-bottom: 120px;
+}
+
+#content .follow li{
+   float: left;
+   width: 22%;
+   margin: 0 1.5%;
+   position: relative;
+   overflow: hidden;
+}
+
+#content .follow li::after{
+   content: '';
+   width: 60px;
+   height: 60px;
+   position: absolute;
+   top: 5%;
+   left: 70%;
+   opacity: .7;
+}
+
+#content .follow li:nth-of-type(1)::after{
+   background: url(../images/facebook-circular-logo.png) no-repeat;
+   background-size: cover;
+}
+
+#content .follow li:nth-of-type(2)::after{
+   background: url(../images/twitter.png) no-repeat;
+   background-size: cover;
+}
+
+#content .follow li:nth-of-type(3)::after, #content .follow li:nth-of-type(4)::after{
+   background: url(../images/instagram.png) no-repeat;
+   background-size: cover;
+}
+
+
+#content .follow li figure.effect-apollo{
+   width: 100%;
+   overflow: hidden;
+}
+
+#content .follow li img{
+   width: 105%;
+   height: 105%;
+}
+
+#content .follow li figure.effect-apollo figcaption{
+   width: 100%;
+   overflow: hidden;
+}
+
+#content .follow .txtbg{
+   display: block;
+   width: 100%;
+   height: 80%;
+   background: rgba(0 ,0 ,0 ,.5);
+   position: absolute;
+   top: 10%;
+   left: 0;
+}
+
+/* 일반 pc */
+@media screen and (max-width:1280px) {
+   #content h3{
+      font-size: 60px; 
+      margin: 100px 0;
+   }
+   #content h3::after{
+      content: '';
+      width: 100px;
+      height: 5px;
+      position: absolute;
+      top: 80px;
+      left: 50%;
+      margin-left: -50px;
+   }
+	#content .who .who_wrap{
+      width: 96%;
+   }
+   #content .who .who_wrap .who_rightbox{
+      width: 53%;
+   }
+   #content .who .who_wrap .who_rightbox ul li{
+      float: left;
+      width: 29%;
+      height: 320px;
+      margin: 0 2%;
+   }
+   #content .channer ul{
+      width: 96%;
+      margin: 0 2%;
+      padding: 100px 30px 80px;
+   }
+   #content .channer ul li p{
+      margin: 30px 0;
+      font-size: 16px;
+   }
+   #content .magazines li {
+      float: left; 
+      width: 250px; height: 364px;	margin-bottom: 3em; list-style: none;
+   }
+   #content .follow .youtube img:nth-of-type(2){
+      width: 75px;
+      position: absolute;
+      top: 35%;
+      left: 50%;
+      margin-left: -32px;
+      transition: .3s;
+   }
+   #content .follow li::after{
+      content: '';
+      width: 45px;
+      height: 45px;
+      position: absolute;
+      top: 5%;
+      left: 70%;
+      opacity: .7;
+   }
+   #content .follow li figure.effect-apollo figcaption p{
+      font-size: 14px;
+      bottom: 10px;
+   }
+}
+
+
+/* 테블릿 */
+@media screen and (max-width:1024px) {
+   #content h3{
+      font-size: 50px;
+   }
+   #content h3::after{
+      content: '';
+      width: 90px;
+      top: 70px;
+      margin-left: -45px;
+   }
+	#content .who .who_wrap{
+      width: 98%;
+   }
+   #content .who .who_wrap .who_rightbox ul li:first-of-type{
+      display: none;
+   }
+   #content .who .who_wrap .who_rightbox ul li{
+      width: 46%;
+   }  
+   #content .channer ul{
+      padding: 50px 10px 30px;
+   }
+   #content .channer ul li:nth-of-type(2), #content .channer ul li:nth-of-type(4){
+      display: none;
+   }   
+   #content .channer ul li{
+      width: 50%;
+   }   
+   #content .channer li img{
+      width: 92%;
+      margin: 0 4%;
+   }   
+   #content .channer li i{
+      font-size: 5.5vw;
+   }   
+   #content .channer ul li p{
+      padding: 0 10px;
+   }
+   #content .follow .follow_wrap{
+      width: 98%;
+      margin: 10% auto 0;
+   }
+   #content .follow .follow_leftbox{
+      width: auto;
+      float: none;
+   }
+   #content .follow h3{
+      margin: 20px 0 70px 0;
+   }
+   #content .follow .follow_leftbox p{
+      width: 90%;
+      margin: 30px auto;
+      text-align: left;
+   }
+   #content .follow .youtube{
+      width: 90%;
+      float: none;
+      margin: 50px auto;
+   }
+   #content .follow .youtube img:nth-of-type(1){
+      filter: none;
+   }
+   #content .follow .youtube img:nth-of-type(2){
+      width: 90px;
+      margin-left: -45px;
+   }
+   #content .follow .youtube img{
+      width: 90%;
+      border-radius: 20px;
+   }   
+   #content .follow ul{
+      margin-top: 50px;
+   }   
+   #content .follow li{
+      width: 30%;
+      margin: 0 1.5%;
+      border-radius: 20px;
+   }
+   #content .follow figure.effect-apollo{
+      background: none;
+   }   
+   #content .follow li::after{
+      width: 55px;
+      height: 55px;
+      left: 70%;
+   }
+   #content .follow li:nth-of-type(3){
+      display: none;
+   }
+   #content .follow .txtbg{
+      top: 5%;
+      height: 88%;
+   }
+   #content .follow li figure.effect-apollo figcaption{
+      display: none;
+   }
+}
+   
+
+/* 소형 테블릿 */
+@media screen and (max-width:768px) {
+   #content{position: relative; background: rgba(0 ,0 ,0 ,1);}
+   .down{margin-left: -60px; bottom: 10%; font-size: 20px;}
+   .down span{width: 60px; height: 45px;}
+	#content h3{
+      margin: 60px 0;
+      font-size: 45px;
+   }
+   #content .who .who_wrap .who_rightbox{
+      width: auto;
+   }
+   #content .who .who_wrap .who_rightbox p{
+      margin-bottom: 50px;
+   }
+   #content .channer ul{
+      width: 100%;
+      margin: 0;
+      padding: 50px 0 0;
+   }
+   #content .channer li img{
+      width: 100%;
+      margin: 0;
+   }  
+   #content .channer li i{
+      color:#fecd08;
+      margin-left: -23px;
+   }
+   #content .magazines .inWrap {
+      margin-bottom: 70px;
+   }
+   #content .magazines .fInner {
+      padding: 3% 3%;
+   }
+   #content .magazines li {
+      width: 200px; height: 291px;
+   }
+   #content .magazines .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet{
+      width: 30px;
+   }
+   #content .follow .follow_wrap{
+      width: 100%;
+   }
+   #content .follow h3{
+      margin: 50px 0 70px 0;
+   }
+   #content .follow .follow_leftbox{
+      margin: 0;
+   }
+   #content .follow .youtube img{
+      width: 100%;
+      border-radius: 10px;
+   }   
+   #content .follow .youtube img:nth-of-type(2){
+      width: 80px;
+      margin-left: -40px;
+   }
+   #content .follow li{
+      border-radius: 10px;
+   }
+   #content .follow li::after{
+      width: 45px;
+      height: 45px;
+      left: 70%;
+   }
+}
+
+
+/* 모바일 */
+@media screen and (max-width:640px) {
+   #content .channer ul li{
+      float: none;
+      width: 100%;
+   }
+   #content .channer ul li:nth-of-type(6){
+      display: none;
+   } 
+   #content .channer li i{
+      top: 33%;
+      font-size: 12vw;
+      color:#fecd08;
+   }
+   #content .magazines .fInner {
+      padding: 0 8%;
+   }
+   #content .magazines li {
+      width: 180px; height: 262px;
+   }
+   #content .magazines .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet{
+      width: 20px;
+      height: 5px;
+   }
+   #content .follow .follow_leftbox p:last-of-type{
+      display: none;
+   }
+   #content .follow .youtube{
+      width: 100%;
+      margin: 30px auto 0;
+   }
+   #content .follow .youtube img:nth-of-type(2){
+      width: 66px;
+      margin-left: -33px;
+   }
+   #content .follow ul {
+      margin-top: 20px;
+  }
+   #content .follow li:nth-of-type(3){
+      display: block;
+   }
+   #content .follow li{
+      width: 46%;
+      margin: 10px 2%;
+   }
+}
+
+
+
+
+
+
