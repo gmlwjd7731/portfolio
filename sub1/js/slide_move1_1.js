@@ -77,7 +77,6 @@ $(document).ready(function () {
 $(document).ready(function() {
     var imageCount=5;  
     var cnt=1;  
-    var direct=1;  
       
        $('.btn1').css('background','#fff'); 
   

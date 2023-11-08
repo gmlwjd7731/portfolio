@@ -1,0 +1,307 @@
+/* COMMON */
+body{font-family: 'Poppins', sans-serif; font-size: 16px; line-height: 1.5em; position: relative;}
+.wrap{width: 100%;overflow: hidden;}
+.hidden, #skipNav{position: absolute; display: block; width: 1px; height: 1px; left: -1000%; overflow: hidden; color: #fff;}
+ol, ul{list-style: none;}
+img{display: block;}
+.container-fluid{padding: 0;}
+h3{font-size: 54px; font-weight: 600;  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black; color: #ffcf01; margin: 100px 0 50px; text-align: center;}
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img{min-width: 100%;}
+.inner{width: 100%; margin: 0 auto; position: relative; max-width: 1600px;}
+section{margin-bottom: 150px;}
+/* --HEADER-- */
+.navbar-default{background-color: #ffcf01; border-color: transparent; height: 100px;}
+.navbar{margin-bottom: 0;}
+.header_area .navbar-brand{position: relative; top: 10px; left: 30px;}
+.navbar-brand{display: block; width: 80px; height: 80px; background: url(../images/logo.png) 0 0 no-repeat; background-size: cover; text-indent: -9999px;}
+.navbar-nav{font-size: 24px; position: relative; top: 25px; right: 30px;}
+.navbar-default .navbar-nav>li{transition: .4s}
+.navbar-default .navbar-nav>li>a{color: #333; font-weight: 600; transition: .4s}
+.navbar-default .navbar-nav>li:hover{transform: rotate(-10deg);}
+.navbar-default .navbar-nav>.active>a, 
+.navbar-default .navbar-nav>.active>a:hover{color: #333; background-color: transparent;}
+.navbar-default .navbar-nav>.active{transform: rotate(-10deg);}
+.navbar-default .navbar-nav>.active>a:hover{transform: rotate(0deg);}
+/* waypoint에서 필요 소스 */
+.wp1, .wp2, .wp3, .wp4, .wp5, .wp6 { visibility: hidden; }
+.bounceInLeft, .bounceInRight, .fadeInUp, .fadeInUpDelay, .fadeInDown, .fadeInUpD, .fadeInLeft, .fadeInRight { visibility: visible; }
+.delay-05s { animation-delay: 0.5s; }
+.delay-1s { animation-delay: 1s;}
+
+/* --VISUAL-- */
+.carousel{margin-top: 100px;}
+.carousel-control .glyphicon-chevron-left, 
+.carousel-control .glyphicon-chevron-right, 
+.carousel-control .icon-next, 
+.carousel-control .icon-prev{
+  font-size: 100px;
+}
+.carousel-indicators li,
+.carousel-indicators .active{width: 50px; height: 6px; border-radius: 0; box-sizing: border-box; margin: 0;}
+
+/* --CONTENT-- */
+/*ABOUT*/
+section#about{margin-bottom: 0;}
+#about{height: 900px; background-image: url(../images/about-bg.jpg); background-repeat: no-repeat; background-position: center; background-size: cover; position: relative;}
+#about .inner{height: 100%;}
+#about .inner::before{content: ''; display: block; width: 700px; height: 700px; background-color: rgba(255,255,255,.8); border-radius: 50%; position: absolute; top: 100px; left: 50%; margin-left: -350px;}
+#about .about_text{margin: 0 auto; text-align: center; position: relative; padding-top: 100px;}
+#about .about_text p{font-size: 18px; margin: 30px 0;}
+#about .floating1{width: 250px; position: absolute; top: 40%; left: 7%;}
+#about .floating2{width: 400px; position: absolute; top: 10%; right: 10%;}
+#about .floating3{width: 300px; position: absolute; bottom: -30%; right: 20%;}
+
+/*BEST SELLERS*/
+#bestsellers h3{padding: 100px 0 50px;}
+#bestsellers .wrap{width: 92%; margin: 0 4%; padding: 100px 30px 50px; border: 4px dashed #ffcf01;}
+#bestsellers .product_box{padding-bottom: 50px;}
+#bestsellers .product{height: 330px; perspective: 600px; margin: 0 10px; cursor: pointer;}
+#bestsellers .product img{width: 100%; border-radius: 20px; box-shadow: 0px 2px 20px #ccc; padding: 20px 0;}
+#bestsellers .product .front,
+#bestsellers .product .back{backface-visibility: hidden; transition: .7s; position: absolute;}
+#bestsellers .product .front{transform: rotateY(0deg);}
+#bestsellers .product:hover .front{transform: rotateY(180deg);}
+#bestsellers .product .back{transform: rotateY(-180deg);}
+#bestsellers .product:hover .back{ transform: rotateY(0deg);}
+#bestsellers .product_box p{font-size: 28px; font-weight: 600; text-align: center; margin: 30px 0 15px;}
+#bestsellers .product_box span{text-align: right; font-size: 18px; display: block; margin-right: 40px;}
+
+/*BRAND VALUES*/
+#brandvalues{background-image: url(../images/brandvalues_bg.jpg); background-repeat: no-repeat; background-position: center; background-size: cover; padding: 50px 0;}
+#brandvalues .inner{width: 96%; margin: 0 auto; padding-bottom: 70px;}
+#brandvalues .value_box{height: 470px; background-image: url(../images/values_bg.png); background-repeat: no-repeat; background-position: center; background-size: 110% 450px; display: flex; align-items: center; justify-content: center;}
+#brandvalues .value_box dl{width: 70%; margin-top: 20px;}
+#brandvalues .value_box dl dt{text-align: center; font-size: 30px; margin: 30px 0;}
+#brandvalues .value_box dl dd{text-align: justify; word-break: break-all; width: 90%; margin: 0 5%;}
+
+/*IDEAS*/
+#ideas .inner{max-width: 1530px;}
+#ideas h3{font-size: 70px; background-image: url(../images/ideas_bg.jpg); background-repeat: no-repeat; background-position: center; background-size: cover; background-attachment: fixed; padding: 8%;
+  text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;}
+#ideas .ideas_img{width: 98%; overflow: hidden; margin: 0 1%;}
+#ideas .ideas_img img{height: 350px; position: relative; right: 15%;}
+#ideas .inner dl{position: relative; text-align: justify; word-break: break-all;}
+#ideas .inner dt{font-size: 24px; padding: 30px 0 20px; text-align: center;}
+
+#ideas .inner_top{padding: 70px 50px 0 250px;}
+#ideas .inner_top .ideas_img{transform: skewX(-14deg); border-radius: 20px;}
+#ideas .inner_top .ideas_img img{transform: skewX(14deg);}
+#ideas .inner_top .ideas_text dl{right: 15%;}
+#ideas .inner_top .floating{position: absolute; bottom: 0; left: 0; width: 350px;}
+#ideas dl dd span{display: block; margin: 20px 0; font-size: 16px; font-weight: 600; text-align: right;}
+
+#ideas .inner_bottom{padding: 70px 250px 0 50px;}
+#ideas .inner_bottom .ideas_img{transform: skewX(14deg); border-radius: 20px;}
+#ideas .inner_bottom .ideas_img img{transform: skewX(-14deg);}
+#ideas .inner_bottom .ideas_text dl{left: 15%;}
+#ideas .inner_bottom dl dd span{text-align: left;}
+#ideas dl{position: relative; background: #f8f2d7; border-radius: 20px; margin-top: 30px; padding: 0 20px 10px;}
+#ideas dl:after {border-top:0px solid transparent; border-left: 20px solid transparent; border-right: 20px solid transparent; border-bottom: 20px solid #f8f2d7; content:""; position:absolute; top:-10px; left:140px;}
+#ideas .inner_bottom .floating{position: absolute; bottom: -5%; right: 0; width: 400px;}
+
+/* --FOOTER-- */
+footer{width: 100%; background-color: #021743; height: 280px; display: flex; flex-direction: column; align-items: center; justify-content: center; color: #ccc; text-align: center; position: relative; font-size: 14px;}
+footer img{width: 80px; height: 80px; margin-bottom: 30px;}
+footer address{margin: 0 5%;}
+/* 상단이동 버튼 */
+.topMove{ color: #ffcf01; font-size: 20px; text-align: center; line-height: 3em; display:block; width: 100px; height: 100px; background: #021743; border-radius: 50%; position: absolute; right: 5%; margin-left: 610px; bottom:230px;}
+.topMove:hover, .topMove:visited, .topMove:link{color: #ffcf01; text-decoration: none;}
+
+/* PC */
+@media screen and (max-width:1199px) {
+  h3{font-size: 50px; margin: 50px 0 20px;}
+  
+
+  /* --VISUAL-- */
+  .carousel{margin-top: 90px;}
+  .navbar-nav{font-size: 22px; position: relative; top: 20px; right: 50px;}
+  .carousel-control .glyphicon-chevron-left, 
+  .carousel-control .glyphicon-chevron-right, 
+  .carousel-control .icon-next, 
+  .carousel-control .icon-prev {font-size: 80px; margin-top: -50px;}
+
+  /*ABOUT*/
+  #about{height: 800px;}
+  #about .inner::before{width: 600px; height: 600px; margin-left: -300px;}
+  #about .about_text p{font-size: 16px;}
+  #about .floating1{width: 180px;}
+  #about .floating2{width: 300px;}
+  #about .floating3{width: 250px;}
+
+  /*BEST SELLERS*/
+  #bestsellers h3{padding: 50px 0;}
+  #bestsellers .wrap{width: 96%; margin: 0 2%; padding: 70px 25px 30px;}
+  #bestsellers .product{height: 270px; margin: 0;}
+  #bestsellers .product_box{padding-bottom: 30px;}
+  #bestsellers .product_box p{font-size: 24px;}
+  #bestsellers .product_box span{font-size: 16px;}
+
+  /*BRAND VALUES*/
+  #brandvalues .value_box{height: 420px; background-size: 110% 420px;}
+  #brandvalues .value_box dl{width: 85%; margin-top: 50px;}
+  #brandvalues .value_box dl dt{font-size: 26px; margin: 30px 0 10px;}
+
+  /*IDEAS*/
+  #ideas h3{font-size: 60px;}
+  #ideas .ideas_img img{height: 300px;}
+  #ideas .inner dt{font-size: 22px;}
+  #ideas .inner_top .floating{bottom: 2%; width: 320px;}
+  #ideas .inner_bottom .floating{right: 5%; width: 400px;}
+}
+
+/* 태블릿 */
+@media screen and (max-width:991px) {
+  h3{font-size: 46px;}
+  section{margin-bottom: 80px;}
+
+  /* --HEADER-- */
+  .navbar-default{height: 90px;}
+  .header_area h1{left: 50px;}
+  .navbar-brand{width: 70px; height: 70px;}
+  .navbar-nav{font-size: 22px; position: relative; top: 20px; right: 50px;}
+
+  /* --VISUAL-- */
+  .carousel{margin-top: 90px;}
+  .carousel-control .glyphicon-chevron-left, 
+  .carousel-control .glyphicon-chevron-right, 
+  .carousel-control .icon-next, 
+  .carousel-control .icon-prev {font-size: 70px; margin-top: -50px;}
+
+  /*ABOUT*/
+  #about{height: 700px;}
+  #about h3{margin: 20px 0 0;}
+  #about .inner::before{width: 560px; height: 560px; margin-left: -280px; top: 70px;}
+  #about .about_text p{margin: 20px 0;}
+  #about .floating1{width: 150px; left: 0; top: 80%;}
+  #about .floating2{width: 230px;}
+  #about .floating3{width: 180px; bottom: -20%; right: 7%;}
+
+  /*BEST SELLERS*/
+  #bestsellers h3{padding: 0 0 30px 0;}
+  #bestsellers .wrap{width: 92%; margin: 0 4%; padding: 70px 25px 30px;}
+  #bestsellers .product{height: 300px; margin: 0;}
+  #bestsellers .product img{width: 96%; margin: 0 2%;}
+
+  /*BRAND VALUES*/
+  #brandvalues .value_box{height: 440px; background-size: 115% 440px;}
+  #brandvalues .value_box dl{width: 90%; margin-top: 30px;}
+  #brandvalues .value_box dl dt{font-size: 24px; margin: 30px 0 10px;}
+
+  /*IDEAS*/
+  #ideas h3{font-size: 56px;}
+  #ideas .ideas_img img{height: 300px;}
+  #ideas .inner dt{font-size: 22px;}
+  #ideas .inner_top .floating{width: 220px; bottom: -7%;}
+  #ideas .inner_bottom .floating{width: 300px; right: 1%; bottom: -2%;}
+  #ideas .inner_top, #ideas .inner_bottom{padding: 70px 7% 0;}
+
+}
+
+/* 소형태블릿 */
+@media screen and (max-width:767px) {
+  h3{font-size: 40px;}
+  section{margin-bottom: 50px;}
+
+  /* --HEADER-- */
+  .navbar-default{height: 70px;}
+  .header_area h1{left: 20px;}
+  .navbar-brand{width: 50px; height: 50px;}
+  /*햄버거메뉴*/
+  .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{background-color: transparent;}
+  .navbar-default .navbar-toggle{border: none;}
+  .navbar-default .navbar-toggle .icon-bar{background-color: #333;}
+  .navbar-toggle .icon-bar {width: 35px; height: 5px; border-radius: 30px;}
+  .navbar-toggle .icon-bar+.icon-bar{margin-top: 5px;}
+  .navbar-toggle{margin-top: 16px;}
+  .navbar-default .navbar-collapse, .navbar-default .navbar-form {border: none; background: #ffcf01;}
+  .navbar-collapse.in {overflow-y: hidden;}
+  .navbar-nav{top: 0; right: 0; text-align: right; font-size: 34px; margin: 10px 0 20px;}
+  .navbar-default .navbar-nav>li{padding: 20px 0;}
+  .navbar-default .navbar-nav>li:hover{transform: none;}
+  .navbar-default .navbar-nav>.active{transform: none;}
+  .navbar-default .navbar-nav>.active>a:hover{transform: none;}
+
+  /* --VISUAL-- */
+  .carousel{margin-top: 70px;}
+  .carousel-control .glyphicon-chevron-left, 
+  .carousel-control .glyphicon-chevron-right, 
+  .carousel-control .icon-next,
+  .carousel-control .icon-prev {font-size: 40px; margin-top: -10px;}
+  .carousel-indicators li,
+  .carousel-indicators .active{width: 30px; height: 3px;}
+
+  /*ABOUT*/
+  #about{height: 650px;}
+  #about h3{margin: 10px 0 0;}
+  #about .inner::before{width: 560px; height: 560px; margin-left: -280px; top: 50px;}
+  #about .about_text p{margin: 20px 0;}
+  #about .floating1{width: 120px; left: 3%; top: 87%;}
+  #about .floating2{width: 190px;}
+  #about .floating3{width: 160px;}
+
+  /*BEST SELLERS*/
+  #bestsellers h3{padding: 0 0 10px 0;}
+  #bestsellers .wrap{width: 92%; margin: 0 4%; padding: 50px 25px 30px;}
+  #bestsellers .product{height: 350px; margin: 0;}
+  #bestsellers .product img{width: 80%; margin: 0 10%;}
+  #bestsellers .product_box span{margin-right: 80px;}
+
+  /*BRAND VALUES*/
+  #brandvalues .inner{padding-bottom: 30px;}
+  #brandvalues .value_box{height: 380px; background-size: 96% 380px;}
+  #brandvalues .value_box dl{width: 80%; margin-top: 10px;}
+  #brandvalues .value_box dl dt{font-size: 20px; margin: 30px 0 10px;}
+  #brandvalues .inner .row:last-child{display: none;}
+
+  /*IDEAS*/
+  #ideas h3{font-size: 50px;}
+  #ideas .row>div:nth-of-type(2),
+  #ideas .row>div:nth-of-type(3){display: none;}
+  #ideas .ideas_img img{width: 100%; height: auto;}
+  #ideas .inner_top .floating{width: 150px; bottom: -8%;}
+  #ideas .inner_bottom .floating{width: 200px; bottom: -1%;}
+  #ideas .inner_top, #ideas .inner_bottom{padding: 50px 7% 0;}
+  #ideas .inner_top .ideas_img,
+  #ideas .inner_bottom .ideas_img,
+  #ideas .inner_top .ideas_img img,
+  #ideas .inner_bottom .ideas_img img{transform: skewX(0deg); margin-left: 6%; border-radius: 0;}
+  #ideas .inner_top .ideas_text dl,
+  #ideas .inner_bottom .ideas_text dl{right: 0; left: 0;}
+
+  /* 상단이동 버튼 */
+  .topMove{font-size: 16px; width: 80px; height: 80px; bottom:235px;}
+}
+
+/* 모바일 */
+@media screen and (max-width:640px) {
+
+  /*ABOUT*/
+  #about{height: auto; padding-bottom: 50px;}
+  #about .inner::before{display: none;}
+  #about .about_text{padding: 20px 0; width: 90%; background-color: rgba(255,255,255,.8); border-radius: 10%; position: relative; top: 35px;}
+  #about .about_text p{font-size: 16px;}
+  #about .floating1{width: 75px; left: 0; top: -4%;}
+  #about .floating2{width: 130px; top: -2%; right: -4%;}
+  #about .floating3{width: 100px; bottom: -2%; right: -5%;}
+
+  /*BEST SELLERS*/
+  #bestsellers .wrap{width: 92%; margin: 0 4%; padding: 50px 0 30px;}
+  #bestsellers .product{height: auto; margin: 0;}
+  #bestsellers .product img{width: 80%; margin: 0 10%;}
+  #bestsellers .product_box span{margin-right: 80px;}
+  #bestsellers .product .front{position: relative;}
+  #bestsellers .product .back{display: none;}
+
+  /*BRAND VALUES*/
+  #brandvalues{padding: 20px 0;}
+  #brandvalues .inner{width: 98%;}
+  #brandvalues .value_box{height: 450px; background-size: 100% 450px;}
+  #brandvalues .value_box dl{width: 86%; margin-top: 10px;}
+  #brandvalues .value_box dl dt{font-size: 20px; margin: 30px 0 10px;}
+  #bestsellers .product:hover .front{transform: rotateY(0deg);}
+
+  /*IDEAS*/
+  #ideas h3{font-size: 34px; background-attachment: inherit;}
+}
+
+

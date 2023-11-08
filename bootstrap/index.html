@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LEGO</title>
+
+  <link rel="shortcut icon"  type="image/x-icon"  href="favicon.ico">
+  <link rel="apple-touch-icon-precomposed" href="app_icon.png">
+  <link rel="apple-touch-startup-image" href="startup.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/layout.css">
+
+  <script src="./js/prefixfree.min.js"></script>
+  <script src="./js/jquery-1.12.4.min.js"></script>
+  <script src="./js/jquery-migrate-1.4.1.min.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
+  <script src="./js/animatescroll.min.js"></script>
+  <script src="./js/custom.js"></script>
+  <script>
+    // <![CDATA[
+      try {
+        window.addEventListener('load', function(){
+              setTimeout(scrollTo, 0, 0, 1); 
+          }, false);
+      } catch(e) {}
+    // ]]>
+  </script>
+  <!--[if lt IE 9]> 
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  
+  <!--[if lt IE 9]>
+      <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <div id="skipNav">
+    <a href="#content">본문 바로가기</a>
+    <a href="#gnb">글로벌 네비게이션 바로가기</a>
+  </div>
+
+  <div class="wrap">
+    <div class="container-fluid">
+      <!--HEADER-->
+      <header id="header" class="header_area fixed-top">
+        <h1 class="hidden">LEGO</h1>
+        <nav id="navbar" class="navbar navbar-default navbar-fixed-top">
+          <h2 class="hidden">글로벌 네비게이션 영역</h2>
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a href="index.html" class="navbar-brand">LEGO</a>
+          </div>
+         
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+              <li><a href="#about" onclick="$('#about').animatescroll();">ABOUT</a></li>
+              <li><a href="#bestsellers" onclick="$('#bestsellers').animatescroll();">BEST SELLERS</a></li>
+              <li><a href="#brandvalues" onclick="$('#brandvalues').animatescroll();">BRAND VALUES</a></li>
+              <li><a href="#ideas" onclick="$('#ideas').animatescroll();">IDEAS</a></li>
+            </ul>
+          
+          </div><!-- /.navbar-collapse -->
+        </nav>
+      </header>
+    
+      <!--VISUAL-->
+      <div id="carousel-example-generic" class="main_visual carousel slide">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        </ol>
+             <!-- Carousel items -->
+         <div class="carousel-inner">
+            <div class="item active">
+               <img src="./images/visual1.jpg" alt="First slide">
+            </div>
+            <div class="item">
+               <img src="./images/visual2.jpg" alt="Second slide">               
+            </div>
+            <div class="item">
+               <img src="./images/visual3.jpg" alt="Third slide">                 
+            </div>
+         </div>
+        <!-- Controls -->
+          <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+            <span class="icon-prev"></span>
+          </a>
+          <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+            <span class="icon-next"></span>
+          </a>
+      </div>
+    
+      <!--CONTENT-->
+      <article class="content">
+        <h2 class="hidden">본문 컨텐츠 영역</h2>
+    
+        <!-- ABOUT -->
+        <section id="about">
+          <div class="inner">
+            <div class="about_text">
+              <h3>ABOUT</h3>
+              <p>The name ‘LEGO’ is an abbreviation of the<br>
+                two Danish words “leg godt”, meaning “play well”.<br> 
+                It’s our name and it’s our ideal.<br>            
+                The LEGO Group was founded in 1932 by Ole Kirk Kristiansen.<br> 
+                The company has passed from father to son and is now owned<br> 
+                by Kjeld Kirk Kristiansen, a grandchild of the founder.</p>
+                <p>
+                  It has come a long way over the past almost 85 years - from<br> 
+                  a small carpenter’s workshop to a modern, global enterprise<br> 
+                  that is now one of the world’s largest manufacturers of toys.<br>
+                  The LEGO brick is our most important product.<br> 
+                  We are proud to have been named “Toy of the Century” twice.<br> 
+                  Our products have undergone extensive development<br> 
+                  over the years – but the foundation remains<br> 
+                  the traditional LEGO brick.
+                </p>
+                <img src="./images/about_floting1.png" alt="bolck" class="floating1">
+                <img src="./images/about_floting2.png" alt="bolck" class="floating2">
+                <img src="./images/about_floting3.png" alt="bolck" class="floating3">
+            </div>
+            
+              
+          </div>
+    
+        </section>
+    
+        <!-- BEST SELLERS -->
+        <section id="bestsellers">
+          <div class="inner">
+            <h3>BEST SELLERS</h3>
+    
+            <div class="wrap">
+
+              <div class="row">
+                <div class="product_box col-md-4 col-sm-6 col-xs-12">
+                  <div class="product">
+                    <div class="front">
+                      <img src="./images/best_front1.jpg" alt="Colosseum">
+                    </div>
+                    <div class="back">
+                      <img src="./images/best_back1.jpg" alt="Colosseum">
+                    </div>
+                  </div>
+                  <p>Colosseum</p>
+                  <span>$549.99</span>
+                </div>
+                <div class="product_box col-md-4 col-sm-6 col-xs-12">
+                  <div class="product">
+                    <div class="front">
+                      <img src="./images/best_front2.jpg" alt="Hogwarts™ Castle">
+                    </div>
+                    <div class="back">
+                      <img src="./images/best_back2.jpg" alt="Hogwarts™ Castle">
+                    </div>
+                  </div>
+                  <p>Hogwarts™ Castle</p>
+                  <span>$399.99</span>
+                </div>
+                <div class="product_box col-md-4 col-sm-6 col-xs-12">
+                  <div class="product">
+                    <div class="front">
+                      <img src="./images/best_front3.jpg" alt="The Disney Castle">
+                    </div>
+                    <div class="back">
+                      <img src="./images/best_back3.jpg" alt="The Disney Castle">
+                    </div>
+                  </div>
+                  <p>The Disney Castle</p>
+                  <span>$349.99</span>
+                </div>
+
+                  <div class="product_box col-md-4 col-sm-6 col-xs-12">
+                    <div class="product">
+                      <div class="front">
+                        <img src="./images/best_front4.jpg" alt="Daily Bugle">
+                      </div>
+                      <div class="back">
+                        <img src="./images/best_back4.jpg" alt="Daily Bugle">
+                      </div>
+                    </div>
+                    <p>Daily Bugle</p>
+                    <span>$429.99</span>
+                  </div>
+                  <div class="product_box col-md-4 col-sm-6 col-xs-12">
+                    <div class="product">
+                      <div class="front">
+                        <img src="./images/best_front5.jpg" alt="Prozen Castle">
+                      </div>
+                      <div class="back">
+                        <img src="./images/best_back5.jpg" alt="Prozen Castle">
+                      </div>
+                    </div>
+                    <p>Prozen Castle</p>
+                    <span>$279.99</span>
+                  </div>
+                  <div class="product_box col-md-4 col-sm-6 col-xs-12">
+                    <div class="product">
+                      <div class="front">
+                        <img src="./images/best_front6.jpg" alt="Police Station">
+                      </div>
+                      <div class="back">
+                        <img src="./images/best_back6.jpg" alt="Police Station">
+                      </div>
+                    </div>
+                    <p>Police Station</p>
+                    <span>$199.99</span>
+                   </div> 
+              </div>
+
+            </div>
+            
+          </div>
+        </section>
+    
+        <!-- BRAND VALUES -->
+        <section id="brandvalues">
+          <div class="inner">
+            <h3>BRAND VALUES</h3>
+    
+              <div class="row">
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                  <div class="value_box">
+                    <dl>
+                      <dt>Imagination</dt>
+                      <dd>Free play is how children develop their imagination – the foundation for creativity. Curiosity asks WHY and imagines possible explanations. Playfulness asks WHAT IF and imagines how the ordinary becomes extraordinary, fantasy or fiction. Dreaming it is a first step towards doing it.</dd>
+                    </dl>
+                  </div>
+                </div>
+                <div class=" col-md-6  col-sm-6 col-xs-12">
+                  <div class="value_box">
+                    <dl>
+                      <dt>Creativity</dt>
+                      <dd>Creativity is the ability to come up with ideas that are new, surprising and valuable - and it’s an essential 21st century skill. Systematic creativity is a particular form of creativity that combines logic and reasoning with playfulness and imagination.</dd>
+                    </dl>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="row">
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                  <div class="value_box">
+                    <dl>
+                      <dt>Fun</dt>
+                      <dd>Fun is being active together, the thrill of an adventure, the joyful enthusiasm of children and the delight in surprising both yourself and others in what you can do or create. Fun is the happiness we experience when we are fully engaged in something that requires mastery, when our abilities are in balance with the challenge at hand and we are making progress towards a goal.</dd>
+                    </dl>
+                  </div>
+                </div>
+                <div class=" col-md-6 col-sm-6 col-xs-12">
+                  <div class="value_box">
+                    <dl>
+                      <dt>Learning</dt>
+                      <dd>Learning is about being curious, experimenting and collaborating – expanding our thinking and doing, helping us develop new insights and new skills. We learn through play by putting things together, taking them apart and putting them together in different ways. Building, un-building, rebuilding, thereby creating new things and developing new ways of thinking about ourselves, and the world.</dd>
+                    </dl>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="row">
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                  <div class="value_box">
+                    <dl>
+                      <dt>Caring</dt>
+                      <dd>Caring is about our desire to make a positive difference in the lives of children, for our colleagues, our partners, and the world we live in. Doing that little extra, not because we have to – but because it feels right and because we care.</dd>
+                    </dl>
+                  </div>
+                </div>
+                <div class=" col-md-6 col-sm-6 col-xs-12">
+                  <div class="value_box">
+                    <dl>
+                      <dt>Quality</dt>
+                      <dd>For us quality means the challenge of continuous improvement to provide the best play material, the best for children and their development and the best to our community and partners. From a reputation for manufacturing excellence to becoming trusted by all – we believe in quality that speaks for itself and earns us the recommendation of all.</dd>
+                    </dl>
+                  </div>
+                </div>
+              </div>
+    
+          </div>
+        </section>
+    
+        <!-- IDEAS -->
+        <section id="ideas">
+          <h3>IDEAS</h3>
+    
+          <div class="inner inner_top">
+    
+            <div class="row">
+              <div class="col-md-4 col-sm-4 col-xs-12">
+                <div class="ideas_img">
+                  <img src="./images/idea1.jpg" alt="">
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-4">
+                <div class="ideas_img">
+                  <img src="./images/idea2.jpg" alt="">
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-4">
+                <div class="ideas_img">
+                  <img src="./images/idea3.jpg" alt="">
+                </div>
+              </div>
+            </div>
+    
+            <div class="row">
+              <div class="ideas_text col-md-4 col-sm-4 col-xs-12">
+                <dl>
+                  <dt>LAND AHOY</dt>
+                  <dd>I made some similar builds before and was asked to submit them.
+                    So I made this model of a map using only regular, standard techniques.<br>
+                    It is quite sturdy and a real build model. I plan to do a video showing how to roll up the flat build.
+                    After rolling up a stand has to be attached. I made quite a basic stand out of basic bricks
+                  <span>By Ralf Ranghaal</span></dd>
+                </dl>
+              </div>
+              <div class="ideas_text col-md-4 col-sm-4">
+                <dl>
+                  <dt>GREAT CORAL REEF</dt>
+                  <dd>Hello :)
+                    <br>
+                    There are so few sets that pay homage to nature. I think that this would be very good idea.
+                    So I want to present you Great Coral Reef. A wonderful world of creatures and plants in every possible color and shape. You can use all different pieces of Lego to recreate this. Or just vote and buy the set.
+                    <br>
+                    Enjoy and vote :)
+                    <span>By kris_kelvin</span></dd>
+                </dl>
+              </div>
+              <div class="ideas_text col-md-4 col-sm-4">
+                <dl>
+                  <dt>JOHN'S MEDIEVAL WATERMILL</dt>
+                  <dd> It is a medieval watermill inspired and put together after a lot of careful planning and research. It consists of a ground floor, a first floor and the attic. There are a lot of "Easter eggs" and contraptions which I will let you explore through the images and video.
+                    <br>
+                    John's Medieval Watermill was inspired by Tabletop World miniature watermills
+                    <br>
+                    Hope you like it and support it!
+                    <span>By Mind the Brick</span></dd>
+                </dl>
+              </div>
+            </div>
+    
+            <img src="./images/ideas_flo1.png" alt="block" class="floating">
+    
+          </div>
+    
+          <div class="inner inner_bottom">
+    
+            <div class="row">
+              <div class="col-md-4 col-sm-4 col-xs-12">
+                <div class="ideas_img">
+                  <img src="./images/idea6.jpg" alt="">
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-4">
+                <div class="ideas_img">
+                  <img src="./images/idea5.jpg" alt="">
+                </div>
+              </div>
+             
+              <div class="col-md-4 col-sm-4">
+                <div class="ideas_img">
+                  <img src="./images/idea4.jpg" alt="">
+                </div>
+              </div>
+            </div>
+    
+            <div class="row">
+              <div class="ideas_text col-md-4 col-sm-4 col-xs-12">
+                <dl>
+                  <dt>THE A-TEAM: VAN AND CREW</dt>
+                  <dd>Due to another recent A-team submission, I initially decided to delay submitting this project for a couple of months. My son reminded me, that it is too good not to share and that the people will decide with their votes if they like it. Here it is, My version of the legendary A-team Van, accompanied by BA Baracus, Hannibal, Face and Howling Mad Murdock 
+                  <span>By HenkvdL05</span></dd>
+                </dl>
+              </div>
+              <div class="ideas_text col-md-4 col-sm-4">
+                <dl>
+                  <dt>ALADDIN: FRIEND LIKE ME</dt>
+                  <dd>Here we see Genie in a ginormous buildable figure, trying to emulate his magnificence, "conjuring" the final scene of the music clip where he creates a Broadway level stage with dancing Elephants, Camels, Lady dancers and Sword dancers on a mountain of treasures. In the center of this incredible scene is our protagonist, Aladdin.
+                    Enjoy and vote :)
+                  <span>By Lud985</span></dd>
+                </dl>
+              </div>
+              <div class="ideas_text col-md-4 col-sm-4">
+                <dl>
+                  <dt>LIVING ON THE EDGE</dt>
+                  <dd>This is a house that sits on the edge of a table and makes use of the edge. I have shown a left and a right version, so that you could use either the left or right side of a table. It would be possible to do a middle version, too, or just leave out the ground at all.
+                    <span>By Ralf Ranghaal</span></dd>
+                </dl>
+              </div>
+            </div>
+    
+            <img src="./images/ideas_flo2.png" alt="block" class="floating">
+    
+          </div>
+    
+        </section>
+    
+    
+    
+      </article>
+    
+      <!--FOOTER-->
+      <footer>
+        <a class="topMove" href="#" onclick="$('#header').animatescroll();">TOP</a> 
+        <img src="./images/logo.png" alt="LEGO">
+        <address>LEGO, the LEGO logo, the Minifigure, DUPLO, LEGENDS OF CHIMA, NINJAGO, BIONICLE, MINDSTORMS and MIXELS are trademarks and copyrights of the LEGO Group.<br><br>
+          ©2021 The LEGO Group. All rights reserved. Use of this site signifies your agreement to the terms of use.</address>
+      </footer>
+  </div>
+
+  
+    <script>
+      $('.carousel').carousel()
+    </script>
+    
+  </div>
+</body>
+</html>
